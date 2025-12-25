@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>GTA V Vehicle Viewer</title>
+		<style>
+			/* Reset & base */
+			* {
+				box-sizing: border-box;
+				margin: 0;
+				padding: 0;
+			}
+			body {
+				font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+				display: flex;
+				height: 100vh;
+				background: #121212;
+				color: #fff;
+			}
+
+			/* Sidebar */
+			#sidebar {
+				width: 280px;
+				background: #1e1e1e;
+				border-right: 1px solid #333;
+				padding: 20px;
+				overflow-y: auto;
+				display: flex;
+				flex-direction: column;
+				gap: 10px;
+			}
+			#sidebar input {
+				width: 100%;
+				padding: 10px 12px;
+				border: none;
+				border-radius: 8px;
+				background: #2a2a2a;
+				color: #fff;
+				font-size: 14px;
+				transition: background 0.2s;
+			}
+			#sidebar input:focus {
+				outline: none;
+				background: #3a3a3a;
+			}
+			#vehicleList {
+				list-style: none;
+				padding: 0;
+				margin-top: 10px;
+				display: flex;
+				flex-direction: column;
+				gap: 5px;
+			}
+			#vehicleList li {
+				padding: 10px 12px;
+				border-radius: 6px;
+				cursor: pointer;
+				background: #2a2a2a;
+				transition: background 0.2s, transform 0.1s;
+			}
+			#vehicleList li:hover {
+				background: #3a3a3a;
+				transform: translateX(4px);
+			}
+
+			/* Viewer */
+			#viewer {
+				flex: 1;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				background: #111;
+				padding: 20px;
+			}
+
+			/* Canvas wrapper: maintain 16:9 ratio */
+			#canvasWrapper {
+				position: relative;
+				width: 100%;
+				max-width: 1440px;
+				aspect-ratio: 16 / 9;
+				border-radius: 16px;
+				box-shadow: 0 0 60px rgba(0, 0, 0, 0.8); /* black glow */
+				overflow: hidden;
+			}
+
+			/* Canvas styling */
+			#canvasWrapper canvas {
+				width: 100%;
+				height: 100%;
+				border-radius: 16px;
+				cursor: ew-resize;
+				background: #111;
+			}
+
+			/* Custom scrollbar */
+			#sidebar::-webkit-scrollbar {
+				width: 8px;
+			}
+			#sidebar::-webkit-scrollbar-thumb {
+				background-color: #555;
+				border-radius: 4px;
+			}
+			#sidebar::-webkit-scrollbar-track {
+				background-color: #1e1e1e;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="sidebar">
+			<input type="text" id="search" placeholder="Search vehicles..." />
+			<ul id="vehicleList"></ul>
+		</div>
+
+		<div id="viewer">
+			<div id="canvasWrapper">
+				<canvas id="viewerCanvas"></canvas>
+			</div>
+		</div>
+
+		<script>
+			const imagesFolder = "images";
+			const vehicleList = document.getElementById("vehicleList");
+			const searchInput = document.getElementById("search");
+			const canvas = document.getElementById("viewerCanvas");
+			const ctx = canvas.getContext("2d");
+
+			let dayImage = new Image();
+			let nightImage = new Image();
+			let sliderX = 0; // initial slider position
+			let canvasWidth, canvasHeight;
+
+			// Load vehicles.json dynamically
+			fetch("vehicles.json")
+				.then((res) => res.json())
+				.then((data) => {
+					window.vehicles = data;
+					renderList();
+				});
+
+			// Render vehicle list
+			function renderList(filter = "") {
+				vehicleList.innerHTML = "";
+				window.vehicles
+					.filter((name) => name.toLowerCase().includes(filter.toLowerCase()))
+					.forEach((name) => {
+						const li = document.createElement("li");
+						li.textContent = name;
+						li.addEventListener("click", () => selectVehicle(name));
+						vehicleList.appendChild(li);
+					});
+			}
+
+			// Filter list
+			searchInput.addEventListener("input", () =>
+				renderList(searchInput.value)
+			);
+
+			// Set images on selection
+			function selectVehicle(name) {
+				dayImage.src = `${imagesFolder}/${name}_D.webp`;
+				nightImage.src = `${imagesFolder}/${name}_N.webp`;
+			}
+
+			// Update canvas size with device pixel ratio
+			function resizeCanvas() {
+				const dpr = window.devicePixelRatio || 1;
+
+				const wrapper = document.getElementById("canvasWrapper");
+				canvasWidth = wrapper.clientWidth * dpr;
+				canvasHeight = wrapper.clientHeight * dpr;
+
+				canvas.width = canvasWidth;
+				canvas.height = canvasHeight;
+
+				ctx.setTransform(1, 0, 0, 1, 0, 0);
+				ctx.scale(dpr, dpr);
+
+				sliderX = wrapper.clientWidth / 2; // slider in CSS pixels
+				drawCanvas();
+			}
+
+			window.addEventListener("resize", resizeCanvas);
+			resizeCanvas();
+
+			// Draw canvas: split night/day based on slider
+			function drawCanvas() {
+				ctx.clearRect(0, 0, canvas.clientWidth, canvas.clientHeight);
+				//ctx.imageSmoothingEnabled = false;
+
+				const cw = canvas.clientWidth;
+				const ch = canvas.clientHeight;
+
+				// Night on left
+				if (nightImage.complete) {
+					ctx.save();
+					ctx.beginPath();
+					ctx.rect(0, 0, sliderX, ch);
+					ctx.clip();
+					drawImageContain(nightImage, cw, ch);
+					ctx.restore();
+				}
+
+				// Day on right
+				if (dayImage.complete) {
+					ctx.save();
+					ctx.beginPath();
+					ctx.rect(sliderX, 0, cw - sliderX, ch);
+					ctx.clip();
+					drawImageContain(dayImage, cw, ch);
+					ctx.restore();
+				}
+
+				// Slider line
+				ctx.fillStyle = "white";
+				ctx.fillRect(sliderX - 1.5, 0, 3, ch);
+			}
+
+			// Draw image with 'contain' behavior
+			function drawImageContain(img, cw, ch) {
+				const imgRatio = img.width / img.height;
+				const canvasRatio = cw / ch;
+
+				let drawWidth, drawHeight, offsetX, offsetY;
+
+				if (imgRatio > canvasRatio) {
+					drawWidth = cw;
+					drawHeight = cw / imgRatio;
+					offsetX = 0;
+					offsetY = (ch - drawHeight) / 2;
+				} else {
+					drawHeight = ch;
+					drawWidth = ch * imgRatio;
+					offsetX = (cw - drawWidth) / 2;
+					offsetY = 0;
+				}
+
+				ctx.drawImage(img, offsetX, offsetY, drawWidth, drawHeight);
+			}
+
+			// Redraw when images load
+			dayImage.onload = drawCanvas;
+			nightImage.onload = drawCanvas;
+
+			// Draggable slider
+			let isDragging = false;
+
+			canvas.addEventListener("mousedown", () => {
+				isDragging = true;
+			});
+			document.addEventListener("mouseup", () => {
+				isDragging = false;
+			});
+			document.addEventListener("mousemove", (e) => {
+				if (!isDragging) return;
+				const rect = canvas.getBoundingClientRect();
+				sliderX = e.clientX - rect.left;
+				sliderX = Math.max(0, Math.min(canvas.clientWidth, sliderX));
+				drawCanvas();
+			});
+		</script>
+	</body>
+</html>
