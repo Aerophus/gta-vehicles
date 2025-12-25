@@ -50,18 +50,26 @@
 				margin-top: 10px;
 				display: flex;
 				flex-direction: column;
-				gap: 5px;
+				gap: 2px;
 			}
 			#vehicleList li {
-				padding: 10px 12px;
-				border-radius: 6px;
+				padding: 9px 15px;
+				border-radius: 4px;
 				cursor: pointer;
-				background: #2a2a2a;
-				transition: background 0.2s, transform 0.1s;
+				border-left: 4px solid transparent;
+				transition: all 0.2s ease;
+				color: #a0a0a0;
 			}
 			#vehicleList li:hover {
+				background: #2c2c2c;
+				border-left-color: #444;
+				color: #fff;
+			}
+			#vehicleList li.selected {
 				background: #3a3a3a;
-				transform: translateX(4px);
+				border-left-color: #007bff;
+				color: #fff;
+				font-weight: 500;
 			}
 
 			/* Viewer */
@@ -130,6 +138,7 @@
 			let nightImage = new Image();
 			let sliderX = 0; // initial slider position
 			let canvasWidth, canvasHeight;
+			let selectedVehicleName = null; // Track selected vehicle
 
 			// Load vehicles.json dynamically
 			fetch("vehicles.json")
@@ -137,6 +146,9 @@
 				.then((data) => {
 					window.vehicles = data;
 					renderList();
+					if (window.vehicles.length > 0) {
+						selectVehicle(window.vehicles[0]);
+					}
 				});
 
 			// Render vehicle list
@@ -147,6 +159,9 @@
 					.forEach((name) => {
 						const li = document.createElement("li");
 						li.textContent = name;
+						if (name === selectedVehicleName) {
+							li.classList.add("selected");
+						}
 						li.addEventListener("click", () => selectVehicle(name));
 						vehicleList.appendChild(li);
 					});
@@ -159,6 +174,19 @@
 
 			// Set images on selection
 			function selectVehicle(name) {
+				if (selectedVehicleName === name) return;
+
+				selectedVehicleName = name;
+
+				// Update selected class on the currently visible list
+				for (const li of vehicleList.children) {
+					if (li.textContent === name) {
+						li.classList.add("selected");
+					} else {
+						li.classList.remove("selected");
+					}
+				}
+
 				dayImage.src = `${imagesFolder}/${name}_D.webp`;
 				nightImage.src = `${imagesFolder}/${name}_N.webp`;
 			}
