@@ -89,7 +89,6 @@
 				max-width: 1440px;
 				aspect-ratio: 16 / 9;
 				border-radius: 16px;
-				box-shadow: 0 0 60px rgba(0, 0, 0, 0.8); /* black glow */
 				overflow: hidden;
 			}
 
@@ -133,9 +132,11 @@
 			const searchInput = document.getElementById("search");
 			const canvas = document.getElementById("viewerCanvas");
 			const ctx = canvas.getContext("2d");
+			const IMAGE_CACHE_LIMIT = 10;
+			const imageCache = new Map();
 
-			let dayImage = new Image();
-			let nightImage = new Image();
+			let dayImage;
+			let nightImage;
 			let sliderX = 0; // initial slider position
 			let canvasWidth, canvasHeight;
 			let selectedVehicleName = null; // Track selected vehicle
@@ -172,23 +173,62 @@
 				renderList(searchInput.value)
 			);
 
+			function loadCachedImage(src) {
+				// If cached, refresh its position (LRU behavior)
+				if (imageCache.has(src)) {
+					const img = imageCache.get(src);
+					imageCache.delete(src);
+					imageCache.set(src, img);
+					return Promise.resolve(img);
+				}
+
+				return new Promise((resolve, reject) => {
+					const img = new Image();
+					img.onload = () => {
+						imageCache.set(src, img);
+
+						// Evict oldest entry if cache is too big
+						if (imageCache.size > IMAGE_CACHE_LIMIT) {
+							const oldestKey = imageCache.keys().next().value;
+							imageCache.delete(oldestKey);
+						}
+
+						resolve(img);
+					};
+					img.onerror = reject;
+					img.src = src;
+				});
+			}
+
 			// Set images on selection
+			let loadToken = 0;
+
 			function selectVehicle(name) {
 				if (selectedVehicleName === name) return;
 
 				selectedVehicleName = name;
+				loadToken++;
 
-				// Update selected class on the currently visible list
+				// Update selected class
 				for (const li of vehicleList.children) {
-					if (li.textContent === name) {
-						li.classList.add("selected");
-					} else {
-						li.classList.remove("selected");
-					}
+					li.classList.toggle("selected", li.textContent === name);
 				}
 
-				dayImage.src = `${imagesFolder}/${name}_D.webp`;
-				nightImage.src = `${imagesFolder}/${name}_N.webp`;
+				const currentToken = loadToken;
+
+				const daySrc = `${imagesFolder}/${name}_D.webp`;
+				const nightSrc = `${imagesFolder}/${name}_N.webp`;
+
+				Promise.all([loadCachedImage(daySrc), loadCachedImage(nightSrc)]).then(
+					([dayImg, nightImg]) => {
+						// Ignore outdated loads
+						if (currentToken !== loadToken) return;
+
+						dayImage = dayImg;
+						nightImage = nightImg;
+						drawCanvas();
+					}
+				);
 			}
 
 			// Update canvas size with device pixel ratio
@@ -214,14 +254,14 @@
 
 			// Draw canvas: split night/day based on slider
 			function drawCanvas() {
-				ctx.clearRect(0, 0, canvas.clientWidth, canvas.clientHeight);
+				ctx.clearRect(0, 0, canvas.width, canvas.height);
 				//ctx.imageSmoothingEnabled = false;
 
 				const cw = canvas.clientWidth;
 				const ch = canvas.clientHeight;
 
 				// Night on left
-				if (nightImage.complete) {
+				if (nightImage && nightImage.complete) {
 					ctx.save();
 					ctx.beginPath();
 					ctx.rect(0, 0, sliderX, ch);
@@ -231,7 +271,7 @@
 				}
 
 				// Day on right
-				if (dayImage.complete) {
+				if (dayImage && dayImage.complete) {
 					ctx.save();
 					ctx.beginPath();
 					ctx.rect(sliderX, 0, cw - sliderX, ch);
@@ -266,10 +306,6 @@
 
 				ctx.drawImage(img, offsetX, offsetY, drawWidth, drawHeight);
 			}
-
-			// Redraw when images load
-			dayImage.onload = drawCanvas;
-			nightImage.onload = drawCanvas;
 
 			// Draggable slider
 			let isDragging = false;
