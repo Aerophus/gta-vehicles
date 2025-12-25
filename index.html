@@ -29,6 +29,7 @@
 				display: flex;
 				flex-direction: column;
 				gap: 10px;
+				transition: transform 0.3s ease;
 			}
 			#sidebar input {
 				width: 100%;
@@ -112,6 +113,67 @@
 			#sidebar::-webkit-scrollbar-track {
 				background-color: #1e1e1e;
 			}
+
+			/* Mobile Styles */
+			@media (max-width: 768px) {
+				body {
+					position: relative;
+				}
+				#sidebar {
+					position: absolute;
+					top: 0;
+					left: 0;
+					width: 100%;
+					height: auto;
+					z-index: 10;
+					border-right: none;
+					background: transparent;
+					padding: 15px;
+					gap: 0;
+					overflow-y: visible; /* Prevent clipping of the absolute positioned list */
+				}
+				#sidebar input {
+					box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+				}
+				#vehicleList {
+					position: absolute;
+					top: 65px; /* Position below search */
+					left: 15px;
+					right: 15px;
+					background: #1e1e1e;
+					border-radius: 8px;
+					box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+					max-height: calc(100vh - 80px);
+					overflow-y: auto;
+					
+					/* Visibility handled by class */
+					opacity: 0;
+					visibility: hidden;
+					transform: translateY(-10px);
+					transition: opacity .2s, transform .2s, visibility .2s;
+				}
+				#vehicleList.visible {
+					opacity: 1;
+					visibility: visible;
+					transform: translateY(0);
+				}
+				#viewer {
+					padding: 0;
+					width: 100%;
+					position: absolute;
+					top: 0;
+					left: 0;
+					height: 100vh;
+					z-index: 1;
+				}
+				#canvasWrapper {
+					border-radius: 0;
+					width: 100%;
+					height: 100%;
+					max-width: none;
+					aspect-ratio: unset;
+				}
+			}
 		</style>
 	</head>
 	<body>
@@ -141,6 +203,8 @@
 			let canvasWidth, canvasHeight;
 			let selectedVehicleName = null; // Track selected vehicle
 
+			const isMobile = () => window.innerWidth <= 768;
+
 			// Load vehicles.json dynamically
 			fetch("vehicles.json")
 				.then((res) => res.json())
@@ -155,9 +219,18 @@
 			// Render vehicle list
 			function renderList(filter = "") {
 				vehicleList.innerHTML = "";
-				window.vehicles
-					.filter((name) => name.toLowerCase().includes(filter.toLowerCase()))
-					.forEach((name) => {
+				const filtered = window.vehicles.filter((name) =>
+					name.toLowerCase().includes(filter.toLowerCase())
+				);
+
+				if (filtered.length === 0 && filter) {
+					const li = document.createElement("li");
+					li.textContent = "No results found";
+					li.style.cursor = "default";
+					li.style.color = "#666";
+					vehicleList.appendChild(li);
+				} else {
+					filtered.forEach((name) => {
 						const li = document.createElement("li");
 						li.textContent = name;
 						if (name === selectedVehicleName) {
@@ -166,12 +239,21 @@
 						li.addEventListener("click", () => selectVehicle(name));
 						vehicleList.appendChild(li);
 					});
+				}
 			}
 
 			// Filter list
-			searchInput.addEventListener("input", () =>
-				renderList(searchInput.value)
-			);
+			searchInput.addEventListener("input", () => {
+				const filter = searchInput.value;
+				renderList(filter);
+				if (isMobile()) {
+					if (filter) {
+						vehicleList.classList.add("visible");
+					} else {
+						vehicleList.classList.remove("visible");
+					}
+				}
+			});
 
 			function loadCachedImage(src) {
 				// If cached, refresh its position (LRU behavior)
@@ -204,7 +286,11 @@
 			let loadToken = 0;
 
 			function selectVehicle(name) {
-				if (selectedVehicleName === name) return;
+				if (selectedVehicleName === name) {
+					// If the same item is clicked, just close the list on mobile
+					if (isMobile()) vehicleList.classList.remove("visible");
+					return;
+				}
 
 				selectedVehicleName = name;
 				loadToken++;
@@ -229,6 +315,11 @@
 						drawCanvas();
 					}
 				);
+
+				if (isMobile()) {
+					vehicleList.classList.remove("visible");
+					searchInput.blur();
+				}
 			}
 
 			// Update canvas size with device pixel ratio
@@ -307,7 +398,7 @@
 				ctx.drawImage(img, offsetX, offsetY, drawWidth, drawHeight);
 			}
 
-			// Draggable slider
+			// Draggable slider - Mouse events
 			let isDragging = false;
 
 			canvas.addEventListener("mousedown", () => {
@@ -322,6 +413,37 @@
 				sliderX = e.clientX - rect.left;
 				sliderX = Math.max(0, Math.min(canvas.clientWidth, sliderX));
 				drawCanvas();
+			});
+
+			// Draggable slider - Touch events
+			canvas.addEventListener("touchstart", (e) => {
+				e.preventDefault();
+				isDragging = true;
+			}, { passive: false });
+
+			document.addEventListener("touchend", (e) => {
+				isDragging = false;
+			});
+
+			canvas.addEventListener("touchmove", (e) => {
+				if (!isDragging) return;
+				e.preventDefault();
+				const rect = canvas.getBoundingClientRect();
+				const touchX = e.touches[0].clientX;
+				sliderX = touchX - rect.left;
+				sliderX = Math.max(0, Math.min(canvas.clientWidth, sliderX));
+				drawCanvas();
+			}, { passive: false });
+
+			// Mobile-specific event handling
+			document.addEventListener("click", (e) => {
+				if (isMobile()) {
+					const sidebar = document.getElementById("sidebar");
+					// If the click is outside the sidebar (search + list), hide the list
+					if (!sidebar.contains(e.target)) {
+						vehicleList.classList.remove("visible");
+					}
+				}
 			});
 		</script>
 	</body>
