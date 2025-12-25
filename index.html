@@ -80,14 +80,14 @@
 				justify-content: center;
 				align-items: center;
 				background: #111;
-				padding: 20px;
+				padding: 0;
 			}
 
 			/* Canvas wrapper: maintain 16:9 ratio */
 			#canvasWrapper {
 				position: relative;
 				width: 100%;
-				max-width: 1440px;
+				max-width: 95%; /* limit width so it doesn’t stretch too much */
 				aspect-ratio: 16 / 9;
 				border-radius: 16px;
 				overflow: hidden;
@@ -145,12 +145,12 @@
 					box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
 					max-height: calc(100vh - 80px);
 					overflow-y: auto;
-					
+
 					/* Visibility handled by class */
 					opacity: 0;
 					visibility: hidden;
 					transform: translateY(-10px);
-					transition: opacity .2s, transform .2s, visibility .2s;
+					transition: opacity 0.2s, transform 0.2s, visibility 0.2s;
 				}
 				#vehicleList.visible {
 					opacity: 1;
@@ -232,7 +232,8 @@
 				} else {
 					filtered.forEach((name) => {
 						const li = document.createElement("li");
-						li.textContent = name;
+						// Replace underscores with spaces for display
+						li.textContent = name.replace(/_/g, " ");
 						if (name === selectedVehicleName) {
 							li.classList.add("selected");
 						}
@@ -416,24 +417,32 @@
 			});
 
 			// Draggable slider - Touch events
-			canvas.addEventListener("touchstart", (e) => {
-				e.preventDefault();
-				isDragging = true;
-			}, { passive: false });
+			canvas.addEventListener(
+				"touchstart",
+				(e) => {
+					e.preventDefault();
+					isDragging = true;
+				},
+				{ passive: false }
+			);
 
 			document.addEventListener("touchend", (e) => {
 				isDragging = false;
 			});
 
-			canvas.addEventListener("touchmove", (e) => {
-				if (!isDragging) return;
-				e.preventDefault();
-				const rect = canvas.getBoundingClientRect();
-				const touchX = e.touches[0].clientX;
-				sliderX = touchX - rect.left;
-				sliderX = Math.max(0, Math.min(canvas.clientWidth, sliderX));
-				drawCanvas();
-			}, { passive: false });
+			canvas.addEventListener(
+				"touchmove",
+				(e) => {
+					if (!isDragging) return;
+					e.preventDefault();
+					const rect = canvas.getBoundingClientRect();
+					const touchX = e.touches[0].clientX;
+					sliderX = touchX - rect.left;
+					sliderX = Math.max(0, Math.min(canvas.clientWidth, sliderX));
+					drawCanvas();
+				},
+				{ passive: false }
+			);
 
 			// Mobile-specific event handling
 			document.addEventListener("click", (e) => {
