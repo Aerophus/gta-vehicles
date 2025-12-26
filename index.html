@@ -21,7 +21,7 @@
 
 			/* Sidebar */
 			#sidebar {
-				width: 280px;
+				width: 15%;
 				background: #1e1e1e;
 				border-right: 1px solid #333;
 				padding: 20px;
@@ -74,6 +74,8 @@
 			}
 
 			#viewer {
+				width: 85%;
+				max-width: 85%;
 				flex: 1;
 				display: flex;
 				flex-direction: column; /* ← correct spelling */
@@ -84,7 +86,7 @@
 
 			#canvasWrapper {
 				width: 90%;
-				max-width: 1440px;
+				max-width: 90%;
 				aspect-ratio: 16 / 9;
 				border-radius: 16px;
 				overflow: hidden;
@@ -203,6 +205,8 @@
 			const searchInput = document.getElementById("search");
 			const canvas = document.getElementById("viewerCanvas");
 			const ctx = canvas.getContext("2d");
+			ctx.imageSmoothingEnabled = true;
+			ctx.imageSmoothingQuality = "high";
 			const IMAGE_CACHE_LIMIT = 10;
 			const imageCache = new Map();
 
@@ -353,18 +357,20 @@
 			// Update canvas size with device pixel ratio
 			function resizeCanvas() {
 				const dpr = window.devicePixelRatio || 1;
-
 				const wrapper = document.getElementById("canvasWrapper");
-				canvasWidth = wrapper.clientWidth * dpr;
-				canvasHeight = wrapper.clientHeight * dpr;
 
-				canvas.width = canvasWidth;
-				canvas.height = canvasHeight;
+				const cssWidth = wrapper.clientWidth;
+				const cssHeight = wrapper.clientHeight;
 
-				ctx.setTransform(1, 0, 0, 1, 0, 0);
-				ctx.scale(dpr, dpr);
+				canvas.width = cssWidth * dpr;
+				canvas.height = cssHeight * dpr;
 
-				sliderX = wrapper.clientWidth / 2; // slider in CSS pixels
+				canvas.style.width = cssWidth + "px";
+				canvas.style.height = cssHeight + "px";
+
+				ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+
+				sliderX = cssWidth / 2;
 				drawCanvas();
 			}
 
