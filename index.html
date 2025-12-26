@@ -73,37 +73,31 @@
 				font-weight: 500;
 			}
 
-			/* Viewer */
 			#viewer {
 				flex: 1;
 				display: flex;
-				flex-direction: column;
-				justify-content: center; /* start from top */
+				flex-direction: column; /* ← correct spelling */
+				justify-content: center;
 				align-items: center;
-				background: #111;
-				padding: 20px 0;
+				gap: 15px;
 			}
 
-			/* Canvas wrapper: maintain 16:9 ratio */
 			#canvasWrapper {
 				width: 90%;
-				max-width: 100%;
+				max-width: 1440px;
 				aspect-ratio: 16 / 9;
 				border-radius: 16px;
-				overflow: hidden; /* important to clip canvas and slider */
-				position: relative; /* optional, for absolute elements */
-				margin-bottom: 15px;
+				overflow: hidden;
+				display: flex; /* important */
+				justify-content: center; /* important */
+				align-items: center; /* important */
 			}
 
-			/* Canvas styling */
 			#canvasWrapper canvas {
+				display: block;
 				width: 100%;
 				height: 100%;
-				border-radius: 16px;
-				cursor: ew-resize;
-				background: #111;
-				border-radius: inherit; /* match container */
-				object-fit: contain; /* optional for scaling */
+				border-radius: 0; /* critical */
 			}
 
 			/* Custom scrollbar */
@@ -120,7 +114,7 @@
 
 			#vehicleInfo {
 				width: 90%; /* match canvas width */
-				max-width: 1200px;
+				max-width: 600px;
 				background: #1e1e1e;
 				padding: 15px;
 				border-radius: 8px;
