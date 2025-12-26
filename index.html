@@ -86,12 +86,13 @@
 
 			/* Canvas wrapper: maintain 16:9 ratio */
 			#canvasWrapper {
-				width: 90%; /* or whatever max width */
-				max-width: 100%; /* optional */
+				width: 90%;
+				max-width: 100%;
 				aspect-ratio: 16 / 9;
 				border-radius: 16px;
-				overflow: hidden;
-				margin-bottom: 15px; /* space for info box */
+				overflow: hidden; /* important to clip canvas and slider */
+				position: relative; /* optional, for absolute elements */
+				margin-bottom: 15px;
 			}
 
 			/* Canvas styling */
@@ -101,6 +102,8 @@
 				border-radius: 16px;
 				cursor: ew-resize;
 				background: #111;
+				border-radius: inherit; /* match container */
+				object-fit: contain; /* optional for scaling */
 			}
 
 			/* Custom scrollbar */
@@ -407,7 +410,8 @@
 				ctx.fillRect(sliderX - 1.5, 0, 3, ch);
 			}
 
-			// Draw image with 'contain' behavior
+			let displayedImageRect = { x: 0, y: 0, width: 0, height: 0 };
+
 			function drawImageContain(img, cw, ch) {
 				const imgRatio = img.width / img.height;
 				const canvasRatio = cw / ch;
@@ -427,6 +431,13 @@
 				}
 
 				ctx.drawImage(img, offsetX, offsetY, drawWidth, drawHeight);
+
+				displayedImageRect = {
+					x: offsetX,
+					y: offsetY,
+					width: drawWidth,
+					height: drawHeight,
+				};
 			}
 
 			// Draggable slider - Mouse events
@@ -442,7 +453,11 @@
 				if (!isDragging) return;
 				const rect = canvas.getBoundingClientRect();
 				sliderX = e.clientX - rect.left;
-				sliderX = Math.max(0, Math.min(canvas.clientWidth, sliderX));
+				sliderX = Math.max(
+					displayedImageRect.x,
+					Math.min(displayedImageRect.x + displayedImageRect.width, sliderX)
+				);
+
 				drawCanvas();
 			});
 
