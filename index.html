@@ -212,15 +212,15 @@
 					window.vehicles = data;
 					renderList();
 					if (window.vehicles.length > 0) {
-						selectVehicle(window.vehicles[0]);
+						selectVehicle(window.vehicles[0]); // now passes the object, not the string
 					}
 				});
 
 			// Render vehicle list
 			function renderList(filter = "") {
 				vehicleList.innerHTML = "";
-				const filtered = window.vehicles.filter((name) =>
-					name.toLowerCase().includes(filter.toLowerCase())
+				const filtered = window.vehicles.filter((v) =>
+					v.name.toLowerCase().includes(filter.toLowerCase())
 				);
 
 				if (filtered.length === 0 && filter) {
@@ -230,14 +230,13 @@
 					li.style.color = "#666";
 					vehicleList.appendChild(li);
 				} else {
-					filtered.forEach((name) => {
+					filtered.forEach((v) => {
 						const li = document.createElement("li");
-						// Replace underscores with spaces for display
-						li.textContent = name.replace(/_/g, " ");
-						if (name === selectedVehicleName) {
+						li.textContent = v.name; // display the name
+						if (v.name === selectedVehicleName) {
 							li.classList.add("selected");
 						}
-						li.addEventListener("click", () => selectVehicle(name));
+						li.addEventListener("click", () => selectVehicle(v));
 						vehicleList.appendChild(li);
 					});
 				}
@@ -286,31 +285,27 @@
 			// Set images on selection
 			let loadToken = 0;
 
-			function selectVehicle(name) {
-				if (selectedVehicleName === name) {
-					// If the same item is clicked, just close the list on mobile
+			function selectVehicle(vehicle) {
+				if (selectedVehicleName === vehicle.name) {
 					if (isMobile()) vehicleList.classList.remove("visible");
 					return;
 				}
 
-				selectedVehicleName = name;
-				loadToken++;
-
+				selectedVehicleName = vehicle.name;
 				// Update selected class
 				for (const li of vehicleList.children) {
-					li.classList.toggle("selected", li.textContent === name);
+					li.classList.toggle("selected", li.textContent === vehicle.name);
 				}
 
-				const currentToken = loadToken;
+				const currentToken = ++loadToken;
 
-				const daySrc = `${imagesFolder}/${name}_D.webp`;
-				const nightSrc = `${imagesFolder}/${name}_N.webp`;
+				// Use the new dayImage and nightImage fields
+				const daySrc = `${imagesFolder}/${vehicle.dayImage}`;
+				const nightSrc = `${imagesFolder}/${vehicle.nightImage}`;
 
 				Promise.all([loadCachedImage(daySrc), loadCachedImage(nightSrc)]).then(
 					([dayImg, nightImg]) => {
-						// Ignore outdated loads
 						if (currentToken !== loadToken) return;
-
 						dayImage = dayImg;
 						nightImage = nightImg;
 						drawCanvas();

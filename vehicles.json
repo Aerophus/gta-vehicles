@@ -1,285 +1,1700 @@
 [
-    "10F_Widebody",
-    "190z",
-    "300R",
-    "811",
-    "8F_Drafter",
-    "9F",
-    "9F_Cabrio",
-    "Adder",
-    "Alpha",
-    "Apocalypse_ZR380",
-    "Ardent",
-    "Armored_Boxville",
-    "Astron_Custom",
-    "Autarch",
-    "Banshee",
-    "Banshee_900R",
-    "Banshee_GTS",
-    "Bati_801",
-    "Bestia_GTS",
-    "Blazer_Aqua",
-    "Blista_Compact",
-    "Blista_Kanjo",
-    "Brickade_6x6",
-    "Buffalo_EVX",
-    "Buffalo_S",
-    "Bullet",
-    "Calico_GTF",
-    "Caracara_Pursuit",
-    "Carbonizzare",
-    "Casco",
-    "Castigator",
-    "Cavalcade_XL",
-    "Champion",
-    "Chavos_V6",
-    "Cheburek",
-    "Cheetah",
-    "Cheetah_Classic",
-    "Cliffhanger",
-    "Comet_Retro_Custom",
-    "Comet_S2",
-    "Comet_S2_Cabrio",
-    "Comet_SR",
-    "Comet_Safari",
-    "Coquette",
-    "Coquette_Classic",
-    "Coquette_D1",
-    "Coquette_D10",
-    "Coquette_D10_Pursuit",
-    "Coquette_D5",
-    "Corsita",
-    "Cyclone",
-    "Cyclone_II",
-    "Cypher",
-    "Daemon",
-    "Deluxo",
-    "Deveste_Eight",
-    "Dominator_FX_Interceptor",
-    "Dorado_Cruiser",
-    "Drift_Tampa",
-    "Dubsta",
-    "Dune_FAV",
-    "Dynasty",
-    "ETR1",
-    "Elegy_RH8",
-    "Elegy_Retro_Custom",
-    "Emerus",
-    "Entity_MT",
-    "Entity_XF",
-    "Entity_XXR",
-    "Envisage",
-    "Euros",
-    "Everon",
-    "Everon_RS",
-    "FCR_1000_Custom",
-    "FMJ",
-    "FMJ_MK_V",
-    "Faction_Custom_Donk",
-    "Fagaloa",
-    "Faggio_Mod",
-    "Feltzer",
-    "Firebolt_ASP",
-    "Flash_GT",
-    "Franken_Stange",
-    "Furia",
-    "Furore_GT",
-    "Fusilade",
-    "Futo",
-    "Futo_GTX",
-    "Future_Shock_Deathbike",
-    "Future_Shock_ZR380",
-    "GB200",
-    "GP1",
-    "GT500",
-    "GT750",
-    "Gauntlet_Hellfire",
-    "Gauntlet_Interceptor",
-    "Go_Go_Monkey_Blista",
-    "Greenwood",
-    "Greenwood_Cruiser",
-    "Growler",
-    "Guardian",
-    "Hakuchou_Drag",
-    "Hermes",
-    "Hot_Rod_Blazer",
-    "Hotring_Everon",
-    "Hotring_Hellfire",
-    "Hotring_Sabre",
-    "Ignus",
-    "Imorgon",
-    "Impaler_LX_Cruiser",
-    "Impaler_SZ_Cruiser",
-    "Infernus",
-    "Infernus_Classic",
-    "Issi_Sport",
-    "Itali_GTB_Custom",
-    "Itali_GTO",
-    "Itali_RSX",
-    "JB_700W",
-    "Jester",
-    "Jester_Classic",
-    "Jester_RR",
-    "Journey_II",
-    "Jugular",
-    "Kalahari",
-    "Kanjo_SJ",
-    "Khamelion",
-    "Komoda",
-    "Krieger",
-    "Kuruma_(__NANO__)",
-    "LM87",
-    "LSCM_Cheetah_Classic",
-    "LSCM_Jester_RR",
-    "La_Coureuse",
-    "Locust",
-    "Lost_Slamvan",
-    "Luiva",
-    "Lynx",
-    "Mamba",
-    "Manana",
-    "Manchez_Scout_C",
-    "Massacro",
-    "Michelli_GT",
-    "Monroe",
-    "MonstroCiti",
-    "Nebula_Turbo",
-    "Neo",
-    "Neon",
-    "Nero_Custom",
-    "Nightshark",
-    "Niobe",
-    "Omnis",
-    "Omnis_e-GT",
-    "Oppressor_Mk_II",
-    "Osiris",
-    "Outreach_Faction",
-    "Panthere",
-    "Paragon_R",
-    "Paragon_R_(__NANO__)",
-    "Paragon_S",
-    "Pariah",
-    "Patriot_Mil-Spec",
-    "Penetrator",
-    "Penumbra",
-    "Penumbra_FF",
-    "Peyote",
-    "Peyote_Custom",
-    "Phoenix",
-    "Picador",
-    "Pigalle",
-    "Pipistrello",
-    "Police_Bike",
-    "Pony",
-    "RCV",
-    "RC_Bandito",
-    "RE-7B",
-    "RT3000",
-    "Raiden",
-    "Ramp_Buggy",
-    "Rapid_GT",
-    "Rapid_GT_Classic",
-    "Rapid_GT_X",
-    "Raptor",
-    "Rat-Loader",
-    "Rat_Bike",
-    "Reaper",
-    "Remus",
-    "Retinue_Mk_II",
-    "Revolter",
-    "Rocket_Voltic",
-    "Romero_Hearse",
-    "Roosevelt_Valor",
-    "Ruiner_2000",
-    "Ruston",
-    "S80RR",
-    "S95",
-    "SC1",
-    "SM722",
-    "Savestra",
-    "Schafter_V12",
-    "Schlagen_GT",
-    "Schwartzer",
-    "Scramjet",
-    "Sentinel_Classic",
-    "Sentinel_Classic_Widebody",
-    "Sentinel_GTS",
-    "Sentinel_XS",
-    "Sentinel_XS4",
-    "Seven-70",
-    "Shinobi",
-    "Shotaro",
-    "Slamtruck",
-    "Sovereign",
-    "Specter",
-    "Speedo_Custom",
-    "Speedo_Custom_2",
-    "Stafford",
-    "Stinger",
-    "Stinger_GT",
-    "Stinger_TT",
-    "Stirling_GT",
-    "Stratum",
-    "Streiter",
-    "Stromberg",
-    "Sugoi",
-    "Sultan_RS",
-    "Sultan_RS_Classic",
-    "Surano",
-    "Suzume",
-    "T20",
-    "Taipan",
-    "Technical_Aqua",
-    "Tempesta",
-    "Terminus_Patrol",
-    "Tezeract",
-    "Thrax",
-    "Tigon",
-    "Toreador",
-    "Torero",
-    "Torero_XO",
-    "Tornado",
-    "Tornado_Custom",
-    "Tornado_Custom_2",
-    "Tornado_Rat_Rod",
-    "Tropos_Rallye",
-    "Turismo_Classic",
-    "Turismo_Omaggio",
-    "Turismo_R",
-    "Tyrant",
-    "Tyrus",
-    "Uranus_LozSpeed",
-    "V-STR",
-    "Vacca",
-    "Vagner",
-    "Vagrant",
-    "Vectre",
-    "Verlierer",
-    "Veto_Classic",
-    "Veto_Modern",
-    "Vigero_ZX_Convertible",
-    "Vigilante",
-    "Virtue",
-    "Viseris",
-    "Visione",
-    "Vivanite",
-    "Voltic",
-    "Warrener",
-    "Wastelander",
-    "Weaponized_Ignus",
-    "Weaponized_Tampa",
-    "Weevil",
-    "Windsor_Drop",
-    "Winky",
-    "X-treme",
-    "X80_Proto",
-    "XA-21",
-    "Youga_Custom",
-    "Z-Type",
-    "ZR350",
-    "Zeno",
-    "Zentorno",
-    "Zhaba",
-    "Zion_Classic",
-    "Zorrusso"
+    {
+        "name": "10F Widebody",
+        "model": "tenf2",
+        "dayImage": "10F_Widebody_D.webp",
+        "nightImage": "10F_Widebody_N.webp"
+    },
+    {
+        "name": "190z",
+        "model": "z190",
+        "dayImage": "190z_D.webp",
+        "nightImage": "190z_N.webp"
+    },
+    {
+        "name": "300R",
+        "model": "r300",
+        "dayImage": "300R_D.webp",
+        "nightImage": "300R_N.webp"
+    },
+    {
+        "name": "811",
+        "model": "pfister811",
+        "dayImage": "811_D.webp",
+        "nightImage": "811_N.webp"
+    },
+    {
+        "name": "8F Drafter",
+        "model": "drafter",
+        "dayImage": "8F_Drafter_D.webp",
+        "nightImage": "8F_Drafter_N.webp"
+    },
+    {
+        "name": "9F",
+        "model": "ninef",
+        "dayImage": "9F_D.webp",
+        "nightImage": "9F_N.webp"
+    },
+    {
+        "name": "9F Cabrio",
+        "model": "ninef2",
+        "dayImage": "9F_Cabrio_D.webp",
+        "nightImage": "9F_Cabrio_N.webp"
+    },
+    {
+        "name": "Adder",
+        "model": "adder",
+        "dayImage": "Adder_D.webp",
+        "nightImage": "Adder_N.webp"
+    },
+    {
+        "name": "Alpha",
+        "model": "alpha",
+        "dayImage": "Alpha_D.webp",
+        "nightImage": "Alpha_N.webp"
+    },
+    {
+        "name": "Apocalypse ZR380",
+        "model": "zr380",
+        "dayImage": "Apocalypse_ZR380_D.webp",
+        "nightImage": "Apocalypse_ZR380_N.webp"
+    },
+    {
+        "name": "Ardent",
+        "model": "ardent",
+        "dayImage": "Ardent_D.webp",
+        "nightImage": "Ardent_N.webp"
+    },
+    {
+        "name": "Armored Boxville",
+        "model": "boxville5",
+        "dayImage": "Armored_Boxville_D.webp",
+        "nightImage": "Armored_Boxville_N.webp"
+    },
+    {
+        "name": "Astron Custom",
+        "model": "astron2",
+        "dayImage": "Astron_Custom_D.webp",
+        "nightImage": "Astron_Custom_N.webp"
+    },
+    {
+        "name": "Autarch",
+        "model": "autarch",
+        "dayImage": "Autarch_D.webp",
+        "nightImage": "Autarch_N.webp"
+    },
+    {
+        "name": "Banshee",
+        "model": "banshee",
+        "dayImage": "Banshee_D.webp",
+        "nightImage": "Banshee_N.webp"
+    },
+    {
+        "name": "Banshee 900R",
+        "model": "banshee2",
+        "dayImage": "Banshee_900R_D.webp",
+        "nightImage": "Banshee_900R_N.webp"
+    },
+    {
+        "name": "Banshee GTS",
+        "model": "bansheegts",
+        "dayImage": "Banshee_GTS_D.webp",
+        "nightImage": "Banshee_GTS_N.webp"
+    },
+    {
+        "name": "Bati 801",
+        "model": "bati",
+        "dayImage": "Bati_801_D.webp",
+        "nightImage": "Bati_801_N.webp"
+    },
+    {
+        "name": "Bestia GTS",
+        "model": "bestiagts",
+        "dayImage": "Bestia_GTS_D.webp",
+        "nightImage": "Bestia_GTS_N.webp"
+    },
+    {
+        "name": "Blazer Aqua",
+        "model": "blazer5",
+        "dayImage": "Blazer_Aqua_D.webp",
+        "nightImage": "Blazer_Aqua_N.webp"
+    },
+    {
+        "name": "Blista Compact",
+        "model": "blista",
+        "dayImage": "Blista_Compact_D.webp",
+        "nightImage": "Blista_Compact_N.webp"
+    },
+    {
+        "name": "Blista Kanjo",
+        "model": "kanjo",
+        "dayImage": "Blista_Kanjo_D.webp",
+        "nightImage": "Blista_Kanjo_N.webp"
+    },
+    {
+        "name": "Brickade 6x6",
+        "model": "brickade2",
+        "dayImage": "Brickade_6x6_D.webp",
+        "nightImage": "Brickade_6x6_N.webp"
+    },
+    {
+        "name": "Buffalo EVX",
+        "model": "buffalo5",
+        "dayImage": "Buffalo_EVX_D.webp",
+        "nightImage": "Buffalo_EVX_N.webp"
+    },
+    {
+        "name": "Buffalo S",
+        "model": "buffalos",
+        "dayImage": "Buffalo_S_D.webp",
+        "nightImage": "Buffalo_S_N.webp"
+    },
+    {
+        "name": "Bullet",
+        "model": "bullet",
+        "dayImage": "Bullet_D.webp",
+        "nightImage": "Bullet_N.webp"
+    },
+    {
+        "name": "Calico GTF",
+        "model": "calico",
+        "dayImage": "Calico_GTF_D.webp",
+        "nightImage": "Calico_GTF_N.webp"
+    },
+    {
+        "name": "Caracara Pursuit",
+        "model": "caracara2",
+        "dayImage": "Caracara_Pursuit_D.webp",
+        "nightImage": "Caracara_Pursuit_N.webp"
+    },
+    {
+        "name": "Carbonizzare",
+        "model": "carbonizzare",
+        "dayImage": "Carbonizzare_D.webp",
+        "nightImage": "Carbonizzare_N.webp"
+    },
+    {
+        "name": "Casco",
+        "model": "casco",
+        "dayImage": "Casco_D.webp",
+        "nightImage": "Casco_N.webp"
+    },
+    {
+        "name": "Castigator",
+        "model": "castigator",
+        "dayImage": "Castigator_D.webp",
+        "nightImage": "Castigator_N.webp"
+    },
+    {
+        "name": "Cavalcade XL",
+        "model": "cavalcade3",
+        "dayImage": "Cavalcade_XL_D.webp",
+        "nightImage": "Cavalcade_XL_N.webp"
+    },
+    {
+        "name": "Champion",
+        "model": "champion",
+        "dayImage": "Champion_D.webp",
+        "nightImage": "Champion_N.webp"
+    },
+    {
+        "name": "Chavos V6",
+        "model": "chavosv6",
+        "dayImage": "Chavos_V6_D.webp",
+        "nightImage": "Chavos_V6_N.webp"
+    },
+    {
+        "name": "Cheburek",
+        "model": "cheburek",
+        "dayImage": "Cheburek_D.webp",
+        "nightImage": "Cheburek_N.webp"
+    },
+    {
+        "name": "Cheetah",
+        "model": "cheetah",
+        "dayImage": "Cheetah_D.webp",
+        "nightImage": "Cheetah_N.webp"
+    },
+    {
+        "name": "Cheetah Classic",
+        "model": "cheetah2",
+        "dayImage": "Cheetah_Classic_D.webp",
+        "nightImage": "Cheetah_Classic_N.webp"
+    },
+    {
+        "name": "Cliffhanger",
+        "model": "cliffhanger",
+        "dayImage": "Cliffhanger_D.webp",
+        "nightImage": "Cliffhanger_N.webp"
+    },
+    {
+        "name": "Comet Retro Custom",
+        "model": "comet3",
+        "dayImage": "Comet_Retro_Custom_D.webp",
+        "nightImage": "Comet_Retro_Custom_N.webp"
+    },
+    {
+        "name": "Comet S2",
+        "model": "comet6",
+        "dayImage": "Comet_S2_D.webp",
+        "nightImage": "Comet_S2_N.webp"
+    },
+    {
+        "name": "Comet S2 Cabrio",
+        "model": "comet7",
+        "dayImage": "Comet_S2_Cabrio_D.webp",
+        "nightImage": "Comet_S2_Cabrio_N.webp"
+    },
+    {
+        "name": "Comet SR",
+        "model": "comet5",
+        "dayImage": "Comet_SR_D.webp",
+        "nightImage": "Comet_SR_N.webp"
+    },
+    {
+        "name": "Comet Safari",
+        "model": "comet4",
+        "dayImage": "Comet_Safari_D.webp",
+        "nightImage": "Comet_Safari_N.webp"
+    },
+    {
+        "name": "Coquette",
+        "model": "coquette",
+        "dayImage": "Coquette_D.webp",
+        "nightImage": "Coquette_N.webp"
+    },
+    {
+        "name": "Coquette Classic",
+        "model": "coquette2",
+        "dayImage": "Coquette_Classic_D.webp",
+        "nightImage": "Coquette_Classic_N.webp"
+    },
+    {
+        "name": "Coquette D1",
+        "model": "coquetted1",
+        "dayImage": "Coquette_D1_D.webp",
+        "nightImage": "Coquette_D1_N.webp"
+    },
+    {
+        "name": "Coquette D10",
+        "model": "coquette4",
+        "dayImage": "Coquette_D10_D.webp",
+        "nightImage": "Coquette_D10_N.webp"
+    },
+    {
+        "name": "Coquette D10 Pursuit",
+        "model": "coquette4c",
+        "dayImage": "Coquette_D10_Pursuit_D.webp",
+        "nightImage": "Coquette_D10_Pursuit_N.webp"
+    },
+    {
+        "name": "Coquette D5",
+        "model": "coquetted5",
+        "dayImage": "Coquette_D5_D.webp",
+        "nightImage": "Coquette_D5_N.webp"
+    },
+    {
+        "name": "Corsita",
+        "model": "corsita",
+        "dayImage": "Corsita_D.webp",
+        "nightImage": "Corsita_N.webp"
+    },
+    {
+        "name": "Cyclone",
+        "model": "cyclone",
+        "dayImage": "Cyclone_D.webp",
+        "nightImage": "Cyclone_N.webp"
+    },
+    {
+        "name": "Cyclone II",
+        "model": "cyclone2",
+        "dayImage": "Cyclone_II_D.webp",
+        "nightImage": "Cyclone_II_N.webp"
+    },
+    {
+        "name": "Cypher",
+        "model": "cypher",
+        "dayImage": "Cypher_D.webp",
+        "nightImage": "Cypher_N.webp"
+    },
+    {
+        "name": "Daemon",
+        "model": "daemon",
+        "dayImage": "Daemon_D.webp",
+        "nightImage": "Daemon_N.webp"
+    },
+    {
+        "name": "Deluxo",
+        "model": "deluxo",
+        "dayImage": "Deluxo_D.webp",
+        "nightImage": "Deluxo_N.webp"
+    },
+    {
+        "name": "Deveste Eight",
+        "model": "deveste",
+        "dayImage": "Deveste_Eight_D.webp",
+        "nightImage": "Deveste_Eight_N.webp"
+    },
+    {
+        "name": "Dominator FX Interceptor",
+        "model": "dominator7",
+        "dayImage": "Dominator_FX_Interceptor_D.webp",
+        "nightImage": "Dominator_FX_Interceptor_N.webp"
+    },
+    {
+        "name": "Dorado Cruiser",
+        "model": "doradocruiser",
+        "dayImage": "Dorado_Cruiser_D.webp",
+        "nightImage": "Dorado_Cruiser_N.webp"
+    },
+    {
+        "name": "Drift Tampa",
+        "model": "tampa2",
+        "dayImage": "Drift_Tampa_D.webp",
+        "nightImage": "Drift_Tampa_N.webp"
+    },
+    {
+        "name": "Dubsta",
+        "model": "dubsta",
+        "dayImage": "Dubsta_D.webp",
+        "nightImage": "Dubsta_N.webp"
+    },
+    {
+        "name": "Dune FAV",
+        "model": "dune3",
+        "dayImage": "Dune_FAV_D.webp",
+        "nightImage": "Dune_FAV_N.webp"
+    },
+    {
+        "name": "Dynasty",
+        "model": "dynasty",
+        "dayImage": "Dynasty_D.webp",
+        "nightImage": "Dynasty_N.webp"
+    },
+    {
+        "name": "ETR1",
+        "model": "sheava",
+        "dayImage": "ETR1_D.webp",
+        "nightImage": "ETR1_N.webp"
+    },
+    {
+        "name": "Elegy RH8",
+        "model": "elegy2",
+        "dayImage": "Elegy_RH8_D.webp",
+        "nightImage": "Elegy_RH8_N.webp"
+    },
+    {
+        "name": "Elegy Retro Custom",
+        "model": "elegy",
+        "dayImage": "Elegy_Retro_Custom_D.webp",
+        "nightImage": "Elegy_Retro_Custom_N.webp"
+    },
+    {
+        "name": "Emerus",
+        "model": "emerus",
+        "dayImage": "Emerus_D.webp",
+        "nightImage": "Emerus_N.webp"
+    },
+    {
+        "name": "Entity MT",
+        "model": "entity3",
+        "dayImage": "Entity_MT_D.webp",
+        "nightImage": "Entity_MT_N.webp"
+    },
+    {
+        "name": "Entity XF",
+        "model": "entityxf",
+        "dayImage": "Entity_XF_D.webp",
+        "nightImage": "Entity_XF_N.webp"
+    },
+    {
+        "name": "Entity XXR",
+        "model": "entity2",
+        "dayImage": "Entity_XXR_D.webp",
+        "nightImage": "Entity_XXR_N.webp"
+    },
+    {
+        "name": "Envisage",
+        "model": "envisage",
+        "dayImage": "Envisage_D.webp",
+        "nightImage": "Envisage_N.webp"
+    },
+    {
+        "name": "Euros",
+        "model": "euros",
+        "dayImage": "Euros_D.webp",
+        "nightImage": "Euros_N.webp"
+    },
+    {
+        "name": "Everon",
+        "model": "everon",
+        "dayImage": "Everon_D.webp",
+        "nightImage": "Everon_N.webp"
+    },
+    {
+        "name": "Everon RS",
+        "model": "everon2",
+        "dayImage": "Everon_RS_D.webp",
+        "nightImage": "Everon_RS_N.webp"
+    },
+    {
+        "name": "FCR 1000 Custom",
+        "model": "fcr2",
+        "dayImage": "FCR_1000_Custom_D.webp",
+        "nightImage": "FCR_1000_Custom_N.webp"
+    },
+    {
+        "name": "FMJ",
+        "model": "fmj",
+        "dayImage": "FMJ_D.webp",
+        "nightImage": "FMJ_N.webp"
+    },
+    {
+        "name": "FMJ MK V",
+        "model": "fmj5",
+        "dayImage": "FMJ_MK_V_D.webp",
+        "nightImage": "FMJ_MK_V_N.webp"
+    },
+    {
+        "name": "Faction Custom Donk",
+        "model": "faction3",
+        "dayImage": "Faction_Custom_Donk_D.webp",
+        "nightImage": "Faction_Custom_Donk_N.webp"
+    },
+    {
+        "name": "Fagaloa",
+        "model": "fagaloa",
+        "dayImage": "Fagaloa_D.webp",
+        "nightImage": "Fagaloa_N.webp"
+    },
+    {
+        "name": "Faggio Mod",
+        "model": "faggio3",
+        "dayImage": "Faggio_Mod_D.webp",
+        "nightImage": "Faggio_Mod_N.webp"
+    },
+    {
+        "name": "Feltzer",
+        "model": "feltzer2",
+        "dayImage": "Feltzer_D.webp",
+        "nightImage": "Feltzer_N.webp"
+    },
+    {
+        "name": "Firebolt ASP",
+        "model": "fireboltasp",
+        "dayImage": "Firebolt_ASP_D.webp",
+        "nightImage": "Firebolt_ASP_N.webp"
+    },
+    {
+        "name": "Flash GT",
+        "model": "flashgt",
+        "dayImage": "Flash_GT_D.webp",
+        "nightImage": "Flash_GT_N.webp"
+    },
+    {
+        "name": "Franken Stange",
+        "model": "frankenstange",
+        "dayImage": "Franken_Stange_D.webp",
+        "nightImage": "Franken_Stange_N.webp"
+    },
+    {
+        "name": "Furia",
+        "model": "furia",
+        "dayImage": "Furia_D.webp",
+        "nightImage": "Furia_N.webp"
+    },
+    {
+        "name": "Furore GT",
+        "model": "furoregt",
+        "dayImage": "Furore_GT_D.webp",
+        "nightImage": "Furore_GT_N.webp"
+    },
+    {
+        "name": "Fusilade",
+        "model": "fusilade",
+        "dayImage": "Fusilade_D.webp",
+        "nightImage": "Fusilade_N.webp"
+    },
+    {
+        "name": "Futo",
+        "model": "futo",
+        "dayImage": "Futo_D.webp",
+        "nightImage": "Futo_N.webp"
+    },
+    {
+        "name": "Futo GTX",
+        "model": "futo2",
+        "dayImage": "Futo_GTX_D.webp",
+        "nightImage": "Futo_GTX_N.webp"
+    },
+    {
+        "name": "Future Shock Deathbike",
+        "model": "deathbike2",
+        "dayImage": "Future_Shock_Deathbike_D.webp",
+        "nightImage": "Future_Shock_Deathbike_N.webp"
+    },
+    {
+        "name": "Future Shock ZR380",
+        "model": "zr3802",
+        "dayImage": "Future_Shock_ZR380_D.webp",
+        "nightImage": "Future_Shock_ZR380_N.webp"
+    },
+    {
+        "name": "GB200",
+        "model": "gb200",
+        "dayImage": "GB200_D.webp",
+        "nightImage": "GB200_N.webp"
+    },
+    {
+        "name": "GP1",
+        "model": "gp1",
+        "dayImage": "GP1_D.webp",
+        "nightImage": "GP1_N.webp"
+    },
+    {
+        "name": "GT500",
+        "model": "gt500",
+        "dayImage": "GT500_D.webp",
+        "nightImage": "GT500_N.webp"
+    },
+    {
+        "name": "GT750",
+        "model": "gt750",
+        "dayImage": "GT750_D.webp",
+        "nightImage": "GT750_N.webp"
+    },
+    {
+        "name": "Gauntlet Hellfire",
+        "model": "gauntlet4",
+        "dayImage": "Gauntlet_Hellfire_D.webp",
+        "nightImage": "Gauntlet_Hellfire_N.webp"
+    },
+    {
+        "name": "Gauntlet Interceptor",
+        "model": "gauntlet5",
+        "dayImage": "Gauntlet_Interceptor_D.webp",
+        "nightImage": "Gauntlet_Interceptor_N.webp"
+    },
+    {
+        "name": "Go Go Monkey Blista",
+        "model": "blista3",
+        "dayImage": "Go_Go_Monkey_Blista_D.webp",
+        "nightImage": "Go_Go_Monkey_Blista_N.webp"
+    },
+    {
+        "name": "Greenwood",
+        "model": "greenwood",
+        "dayImage": "Greenwood_D.webp",
+        "nightImage": "Greenwood_N.webp"
+    },
+    {
+        "name": "Greenwood Cruiser",
+        "model": "greenwood2",
+        "dayImage": "Greenwood_Cruiser_D.webp",
+        "nightImage": "Greenwood_Cruiser_N.webp"
+    },
+    {
+        "name": "Growler",
+        "model": "growler",
+        "dayImage": "Growler_D.webp",
+        "nightImage": "Growler_N.webp"
+    },
+    {
+        "name": "Guardian",
+        "model": "guardian",
+        "dayImage": "Guardian_D.webp",
+        "nightImage": "Guardian_N.webp"
+    },
+    {
+        "name": "Hakuchou Drag",
+        "model": "hakuchou2",
+        "dayImage": "Hakuchou_Drag_D.webp",
+        "nightImage": "Hakuchou_Drag_N.webp"
+    },
+    {
+        "name": "Hermes",
+        "model": "hermes",
+        "dayImage": "Hermes_D.webp",
+        "nightImage": "Hermes_N.webp"
+    },
+    {
+        "name": "Hot Rod Blazer",
+        "model": "blazer3",
+        "dayImage": "Hot_Rod_Blazer_D.webp",
+        "nightImage": "Hot_Rod_Blazer_N.webp"
+    },
+    {
+        "name": "Hotring Everon",
+        "model": "everon3",
+        "dayImage": "Hotring_Everon_D.webp",
+        "nightImage": "Hotring_Everon_N.webp"
+    },
+    {
+        "name": "Hotring Hellfire",
+        "model": "gauntlet6",
+        "dayImage": "Hotring_Hellfire_D.webp",
+        "nightImage": "Hotring_Hellfire_N.webp"
+    },
+    {
+        "name": "Hotring Sabre",
+        "model": "hotring",
+        "dayImage": "Hotring_Sabre_D.webp",
+        "nightImage": "Hotring_Sabre_N.webp"
+    },
+    {
+        "name": "Ignus",
+        "model": "ignus",
+        "dayImage": "Ignus_D.webp",
+        "nightImage": "Ignus_N.webp"
+    },
+    {
+        "name": "Imorgon",
+        "model": "imorgon",
+        "dayImage": "Imorgon_D.webp",
+        "nightImage": "Imorgon_N.webp"
+    },
+    {
+        "name": "Impaler LX Cruiser",
+        "model": "impaler5",
+        "dayImage": "Impaler_LX_Cruiser_D.webp",
+        "nightImage": "Impaler_LX_Cruiser_N.webp"
+    },
+    {
+        "name": "Impaler SZ Cruiser",
+        "model": "impaler6",
+        "dayImage": "Impaler_SZ_Cruiser_D.webp",
+        "nightImage": "Impaler_SZ_Cruiser_N.webp"
+    },
+    {
+        "name": "Infernus",
+        "model": "infernus",
+        "dayImage": "Infernus_D.webp",
+        "nightImage": "Infernus_N.webp"
+    },
+    {
+        "name": "Infernus Classic",
+        "model": "infernus2",
+        "dayImage": "Infernus_Classic_D.webp",
+        "nightImage": "Infernus_Classic_N.webp"
+    },
+    {
+        "name": "Issi Sport",
+        "model": "issi7",
+        "dayImage": "Issi_Sport_D.webp",
+        "nightImage": "Issi_Sport_N.webp"
+    },
+    {
+        "name": "Itali GTB Custom",
+        "model": "italigtb2",
+        "dayImage": "Itali_GTB_Custom_D.webp",
+        "nightImage": "Itali_GTB_Custom_N.webp"
+    },
+    {
+        "name": "Itali GTO",
+        "model": "italigto",
+        "dayImage": "Itali_GTO_D.webp",
+        "nightImage": "Itali_GTO_N.webp"
+    },
+    {
+        "name": "Itali RSX",
+        "model": "italirsx",
+        "dayImage": "Itali_RSX_D.webp",
+        "nightImage": "Itali_RSX_N.webp"
+    },
+    {
+        "name": "JB 700W",
+        "model": "jb7002",
+        "dayImage": "JB_700W_D.webp",
+        "nightImage": "JB_700W_N.webp"
+    },
+    {
+        "name": "Jester",
+        "model": "jester",
+        "dayImage": "Jester_D.webp",
+        "nightImage": "Jester_N.webp"
+    },
+    {
+        "name": "Jester Classic",
+        "model": "jester3",
+        "dayImage": "Jester_Classic_D.webp",
+        "nightImage": "Jester_Classic_N.webp"
+    },
+    {
+        "name": "Jester RR",
+        "model": "jester4",
+        "dayImage": "Jester_RR_D.webp",
+        "nightImage": "Jester_RR_N.webp"
+    },
+    {
+        "name": "Journey II",
+        "model": "journey2",
+        "dayImage": "Journey_II_D.webp",
+        "nightImage": "Journey_II_N.webp"
+    },
+    {
+        "name": "Jugular",
+        "model": "jugular",
+        "dayImage": "Jugular_D.webp",
+        "nightImage": "Jugular_N.webp"
+    },
+    {
+        "name": "Kalahari",
+        "model": "kalahari",
+        "dayImage": "Kalahari_D.webp",
+        "nightImage": "Kalahari_N.webp"
+    },
+    {
+        "name": "Kanjo SJ",
+        "model": "kanjosj",
+        "dayImage": "Kanjo_SJ_D.webp",
+        "nightImage": "Kanjo_SJ_N.webp"
+    },
+    {
+        "name": "Khamelion",
+        "model": "khamelion",
+        "dayImage": "Khamelion_D.webp",
+        "nightImage": "Khamelion_N.webp"
+    },
+    {
+        "name": "Komoda",
+        "model": "komoda",
+        "dayImage": "Komoda_D.webp",
+        "nightImage": "Komoda_N.webp"
+    },
+    {
+        "name": "Krieger",
+        "model": "krieger",
+        "dayImage": "Krieger_D.webp",
+        "nightImage": "Krieger_N.webp"
+    },
+    {
+        "name": "Kuruma",
+        "model": "kuruma",
+        "dayImage": "Kuruma_D.webp",
+        "nightImage": "Kuruma_N.webp"
+    },
+    {
+        "name": "LM87",
+        "model": "lm87",
+        "dayImage": "LM87_D.webp",
+        "nightImage": "LM87_N.webp"
+    },
+    {
+        "name": "LSCM Cheetah Classic",
+        "model": "cheetah2",
+        "dayImage": "LSCM_Cheetah_Classic_D.webp",
+        "nightImage": "LSCM_Cheetah_Classic_N.webp"
+    },
+    {
+        "name": "LSCM Jester RR",
+        "model": "jester4",
+        "dayImage": "LSCM_Jester_RR_D.webp",
+        "nightImage": "LSCM_Jester_RR_N.webp"
+    },
+    {
+        "name": "La Coureuse",
+        "model": "lacoureuse",
+        "dayImage": "La_Coureuse_D.webp",
+        "nightImage": "La_Coureuse_N.webp"
+    },
+    {
+        "name": "Locust",
+        "model": "locust",
+        "dayImage": "Locust_D.webp",
+        "nightImage": "Locust_N.webp"
+    },
+    {
+        "name": "Lost Slamvan",
+        "model": "slamvan2",
+        "dayImage": "Lost_Slamvan_D.webp",
+        "nightImage": "Lost_Slamvan_N.webp"
+    },
+    {
+        "name": "Luiva",
+        "model": "luiva",
+        "dayImage": "Luiva_D.webp",
+        "nightImage": "Luiva_N.webp"
+    },
+    {
+        "name": "Lynx",
+        "model": "lynx",
+        "dayImage": "Lynx_D.webp",
+        "nightImage": "Lynx_N.webp"
+    },
+    {
+        "name": "Mamba",
+        "model": "mamba",
+        "dayImage": "Mamba_D.webp",
+        "nightImage": "Mamba_N.webp"
+    },
+    {
+        "name": "Manana",
+        "model": "manana",
+        "dayImage": "Manana_D.webp",
+        "nightImage": "Manana_N.webp"
+    },
+    {
+        "name": "Manchez Scout C",
+        "model": "manchez3",
+        "dayImage": "Manchez_Scout_C_D.webp",
+        "nightImage": "Manchez_Scout_C_N.webp"
+    },
+    {
+        "name": "Massacro",
+        "model": "massacro",
+        "dayImage": "Massacro_D.webp",
+        "nightImage": "Massacro_N.webp"
+    },
+    {
+        "name": "Michelli GT",
+        "model": "michelli",
+        "dayImage": "Michelli_GT_D.webp",
+        "nightImage": "Michelli_GT_N.webp"
+    },
+    {
+        "name": "Monroe",
+        "model": "monroe",
+        "dayImage": "Monroe_D.webp",
+        "nightImage": "Monroe_N.webp"
+    },
+    {
+        "name": "MonstroCiti",
+        "model": "monstrociti",
+        "dayImage": "MonstroCiti_D.webp",
+        "nightImage": "MonstroCiti_N.webp"
+    },
+    {
+        "name": "Nebula Turbo",
+        "model": "nebula",
+        "dayImage": "Nebula_Turbo_D.webp",
+        "nightImage": "Nebula_Turbo_N.webp"
+    },
+    {
+        "name": "Neo",
+        "model": "neo",
+        "dayImage": "Neo_D.webp",
+        "nightImage": "Neo_N.webp"
+    },
+    {
+        "name": "Neon",
+        "model": "neon",
+        "dayImage": "Neon_D.webp",
+        "nightImage": "Neon_N.webp"
+    },
+    {
+        "name": "Nero Custom",
+        "model": "nero2",
+        "dayImage": "Nero_Custom_D.webp",
+        "nightImage": "Nero_Custom_N.webp"
+    },
+    {
+        "name": "Nightshark",
+        "model": "nightshark",
+        "dayImage": "Nightshark_D.webp",
+        "nightImage": "Nightshark_N.webp"
+    },
+    {
+        "name": "Niobe",
+        "model": "niobe",
+        "dayImage": "Niobe_D.webp",
+        "nightImage": "Niobe_N.webp"
+    },
+    {
+        "name": "Omnis",
+        "model": "omnis",
+        "dayImage": "Omnis_D.webp",
+        "nightImage": "Omnis_N.webp"
+    },
+    {
+        "name": "Omnis e-GT",
+        "model": "omnis2",
+        "dayImage": "Omnis_e-GT_D.webp",
+        "nightImage": "Omnis_e-GT_N.webp"
+    },
+    {
+        "name": "Oppressor Mk II",
+        "model": "oppressor2",
+        "dayImage": "Oppressor_Mk_II_D.webp",
+        "nightImage": "Oppressor_Mk_II_N.webp"
+    },
+    {
+        "name": "Osiris",
+        "model": "osiris",
+        "dayImage": "Osiris_D.webp",
+        "nightImage": "Osiris_N.webp"
+    },
+    {
+        "name": "Outreach Faction",
+        "model": "faction4",
+        "dayImage": "Outreach_Faction_D.webp",
+        "nightImage": "Outreach_Faction_N.webp"
+    },
+    {
+        "name": "Panthere",
+        "model": "panthere",
+        "dayImage": "Panthere_D.webp",
+        "nightImage": "Panthere_N.webp"
+    },
+    {
+        "name": "Paragon R",
+        "model": "paragon",
+        "dayImage": "Paragon_R_D.webp",
+        "nightImage": "Paragon_R_N.webp"
+    },
+    {
+        "name": "Paragon R Armored",
+        "model": "paragon2",
+        "dayImage": "Paragon_R_Armored_D.webp",
+        "nightImage": "Paragon_R_Armored_N.webp"
+    },
+    {
+        "name": "Paragon S",
+        "model": "paragon3",
+        "dayImage": "Paragon_S_D.webp",
+        "nightImage": "Paragon_S_N.webp"
+    },
+    {
+        "name": "Pariah",
+        "model": "pariah",
+        "dayImage": "Pariah_D.webp",
+        "nightImage": "Pariah_N.webp"
+    },
+    {
+        "name": "Patriot Mil-Spec",
+        "model": "patriot2",
+        "dayImage": "Patriot_Mil-Spec_D.webp",
+        "nightImage": "Patriot_Mil-Spec_N.webp"
+    },
+    {
+        "name": "Penetrator",
+        "model": "penetrator",
+        "dayImage": "Penetrator_D.webp",
+        "nightImage": "Penetrator_N.webp"
+    },
+    {
+        "name": "Penumbra",
+        "model": "penumbra",
+        "dayImage": "Penumbra_D.webp",
+        "nightImage": "Penumbra_N.webp"
+    },
+    {
+        "name": "Penumbra FF",
+        "model": "penumbraff",
+        "dayImage": "Penumbra_FF_D.webp",
+        "nightImage": "Penumbra_FF_N.webp"
+    },
+    {
+        "name": "Peyote",
+        "model": "peyote",
+        "dayImage": "Peyote_D.webp",
+        "nightImage": "Peyote_N.webp"
+    },
+    {
+        "name": "Peyote Custom",
+        "model": "peyote2",
+        "dayImage": "Peyote_Custom_D.webp",
+        "nightImage": "Peyote_Custom_N.webp"
+    },
+    {
+        "name": "Phoenix",
+        "model": "phoenix",
+        "dayImage": "Phoenix_D.webp",
+        "nightImage": "Phoenix_N.webp"
+    },
+    {
+        "name": "Picador",
+        "model": "picador",
+        "dayImage": "Picador_D.webp",
+        "nightImage": "Picador_N.webp"
+    },
+    {
+        "name": "Pigalle",
+        "model": "pigalle",
+        "dayImage": "Pigalle_D.webp",
+        "nightImage": "Pigalle_N.webp"
+    },
+    {
+        "name": "Pipistrello",
+        "model": "pipistrello",
+        "dayImage": "Pipistrello_D.webp",
+        "nightImage": "Pipistrello_N.webp"
+    },
+    {
+        "name": "Police Bike",
+        "model": "policeb",
+        "dayImage": "Police_Bike_D.webp",
+        "nightImage": "Police_Bike_N.webp"
+    },
+    {
+        "name": "Pony",
+        "model": "pony",
+        "dayImage": "Pony_D.webp",
+        "nightImage": "Pony_N.webp"
+    },
+    {
+        "name": "RCV",
+        "model": "rcv",
+        "dayImage": "RCV_D.webp",
+        "nightImage": "RCV_N.webp"
+    },
+    {
+        "name": "RC Bandito",
+        "model": "rcbandito",
+        "dayImage": "RC_Bandito_D.webp",
+        "nightImage": "RC_Bandito_N.webp"
+    },
+    {
+        "name": "RE-7B",
+        "model": "re7b",
+        "dayImage": "RE-7B_D.webp",
+        "nightImage": "RE-7B_N.webp"
+    },
+    {
+        "name": "RT3000",
+        "model": "rt3000",
+        "dayImage": "RT3000_D.webp",
+        "nightImage": "RT3000_N.webp"
+    },
+    {
+        "name": "Raiden",
+        "model": "raiden",
+        "dayImage": "Raiden_D.webp",
+        "nightImage": "Raiden_N.webp"
+    },
+    {
+        "name": "Ramp Buggy",
+        "model": "rampbuggy",
+        "dayImage": "Ramp_Buggy_D.webp",
+        "nightImage": "Ramp_Buggy_N.webp"
+    },
+    {
+        "name": "Rapid GT",
+        "model": "rapidgt",
+        "dayImage": "Rapid_GT_D.webp",
+        "nightImage": "Rapid_GT_N.webp"
+    },
+    {
+        "name": "Rapid GT Classic",
+        "model": "rapidgt2",
+        "dayImage": "Rapid_GT_Classic_D.webp",
+        "nightImage": "Rapid_GT_Classic_N.webp"
+    },
+    {
+        "name": "Rapid GT X",
+        "model": "rapidgt3",
+        "dayImage": "Rapid_GT_X_D.webp",
+        "nightImage": "Rapid_GT_X_N.webp"
+    },
+    {
+        "name": "Raptor",
+        "model": "raptor",
+        "dayImage": "Raptor_D.webp",
+        "nightImage": "Raptor_N.webp"
+    },
+    {
+        "name": "Rat-Loader",
+        "model": "ratloader",
+        "dayImage": "Rat-Loader_D.webp",
+        "nightImage": "Rat-Loader_N.webp"
+    },
+    {
+        "name": "Rat Bike",
+        "model": "ratbike",
+        "dayImage": "Rat_Bike_D.webp",
+        "nightImage": "Rat_Bike_N.webp"
+    },
+    {
+        "name": "Reaper",
+        "model": "reaper",
+        "dayImage": "Reaper_D.webp",
+        "nightImage": "Reaper_N.webp"
+    },
+    {
+        "name": "Remus",
+        "model": "remus",
+        "dayImage": "Remus_D.webp",
+        "nightImage": "Remus_N.webp"
+    },
+    {
+        "name": "Retinue Mk II",
+        "model": "retinue2",
+        "dayImage": "Retinue_Mk_II_D.webp",
+        "nightImage": "Retinue_Mk_II_N.webp"
+    },
+    {
+        "name": "Revolter",
+        "model": "revolter",
+        "dayImage": "Revolter_D.webp",
+        "nightImage": "Revolter_N.webp"
+    },
+    {
+        "name": "Rocket Voltic",
+        "model": "voltic2",
+        "dayImage": "Rocket_Voltic_D.webp",
+        "nightImage": "Rocket_Voltic_N.webp"
+    },
+    {
+        "name": "Romero Hearse",
+        "model": "romero2",
+        "dayImage": "Romero_Hearse_D.webp",
+        "nightImage": "Romero_Hearse_N.webp"
+    },
+    {
+        "name": "Roosevelt Valor",
+        "model": "roosevelt2",
+        "dayImage": "Roosevelt_Valor_D.webp",
+        "nightImage": "Roosevelt_Valor_N.webp"
+    },
+    {
+        "name": "Ruiner 2000",
+        "model": "ruiner2",
+        "dayImage": "Ruiner_2000_D.webp",
+        "nightImage": "Ruiner_2000_N.webp"
+    },
+    {
+        "name": "Ruston",
+        "model": "ruston",
+        "dayImage": "Ruston_D.webp",
+        "nightImage": "Ruston_N.webp"
+    },
+    {
+        "name": "S80RR",
+        "model": "s80rr",
+        "dayImage": "S80RR_D.webp",
+        "nightImage": "S80RR_N.webp"
+    },
+    {
+        "name": "S95",
+        "model": "s95",
+        "dayImage": "S95_D.webp",
+        "nightImage": "S95_N.webp"
+    },
+    {
+        "name": "SC1",
+        "model": "sc1",
+        "dayImage": "SC1_D.webp",
+        "nightImage": "SC1_N.webp"
+    },
+    {
+        "name": "SM722",
+        "model": "sm722",
+        "dayImage": "SM722_D.webp",
+        "nightImage": "SM722_N.webp"
+    },
+    {
+        "name": "Savestra",
+        "model": "savestra",
+        "dayImage": "Savestra_D.webp",
+        "nightImage": "Savestra_N.webp"
+    },
+    {
+        "name": "Schafter V12",
+        "model": "schafter4",
+        "dayImage": "Schafter_V12_D.webp",
+        "nightImage": "Schafter_V12_N.webp"
+    },
+    {
+        "name": "Schlagen GT",
+        "model": "schlagen",
+        "dayImage": "Schlagen_GT_D.webp",
+        "nightImage": "Schlagen_GT_N.webp"
+    },
+    {
+        "name": "Schwartzer",
+        "model": "schwartzer",
+        "dayImage": "Schwartzer_D.webp",
+        "nightImage": "Schwartzer_N.webp"
+    },
+    {
+        "name": "Scramjet",
+        "model": "scramjet",
+        "dayImage": "Scramjet_D.webp",
+        "nightImage": "Scramjet_N.webp"
+    },
+    {
+        "name": "Sentinel Classic",
+        "model": "sentinel3",
+        "dayImage": "Sentinel_Classic_D.webp",
+        "nightImage": "Sentinel_Classic_N.webp"
+    },
+    {
+        "name": "Sentinel Classic Widebody",
+        "model": "sentinel4",
+        "dayImage": "Sentinel_Classic_Widebody_D.webp",
+        "nightImage": "Sentinel_Classic_Widebody_N.webp"
+    },
+    {
+        "name": "Sentinel GTS",
+        "model": "sentinel2",
+        "dayImage": "Sentinel_GTS_D.webp",
+        "nightImage": "Sentinel_GTS_N.webp"
+    },
+    {
+        "name": "Sentinel XS",
+        "model": "sentinel",
+        "dayImage": "Sentinel_XS_D.webp",
+        "nightImage": "Sentinel_XS_N.webp"
+    },
+    {
+        "name": "Sentinel XS4",
+        "model": "sentinel5",
+        "dayImage": "Sentinel_XS4_D.webp",
+        "nightImage": "Sentinel_XS4_N.webp"
+    },
+    {
+        "name": "Seven-70",
+        "model": "seven70",
+        "dayImage": "Seven-70_D.webp",
+        "nightImage": "Seven-70_N.webp"
+    },
+    {
+        "name": "Shinobi",
+        "model": "shinobi",
+        "dayImage": "Shinobi_D.webp",
+        "nightImage": "Shinobi_N.webp"
+    },
+    {
+        "name": "Shotaro",
+        "model": "shotaro",
+        "dayImage": "Shotaro_D.webp",
+        "nightImage": "Shotaro_N.webp"
+    },
+    {
+        "name": "Slamtruck",
+        "model": "slamtruck",
+        "dayImage": "Slamtruck_D.webp",
+        "nightImage": "Slamtruck_N.webp"
+    },
+    {
+        "name": "Sovereign",
+        "model": "sovereign",
+        "dayImage": "Sovereign_D.webp",
+        "nightImage": "Sovereign_N.webp"
+    },
+    {
+        "name": "Specter",
+        "model": "specter",
+        "dayImage": "Specter_D.webp",
+        "nightImage": "Specter_N.webp"
+    },
+    {
+        "name": "Speedo Custom",
+        "model": "speedo2",
+        "dayImage": "Speedo_Custom_D.webp",
+        "nightImage": "Speedo_Custom_N.webp"
+    },
+    {
+        "name": "Speedo Custom 2",
+        "model": "speedo4",
+        "dayImage": "Speedo_Custom_2_D.webp",
+        "nightImage": "Speedo_Custom_2_N.webp"
+    },
+    {
+        "name": "Stafford",
+        "model": "stafford",
+        "dayImage": "Stafford_D.webp",
+        "nightImage": "Stafford_N.webp"
+    },
+    {
+        "name": "Stinger",
+        "model": "stinger",
+        "dayImage": "Stinger_D.webp",
+        "nightImage": "Stinger_N.webp"
+    },
+    {
+        "name": "Stinger GT",
+        "model": "stingergt",
+        "dayImage": "Stinger_GT_D.webp",
+        "nightImage": "Stinger_GT_N.webp"
+    },
+    {
+        "name": "Stinger TT",
+        "model": "stingertt",
+        "dayImage": "Stinger_TT_D.webp",
+        "nightImage": "Stinger_TT_N.webp"
+    },
+    {
+        "name": "Stirling GT",
+        "model": "stirling",
+        "dayImage": "Stirling_GT_D.webp",
+        "nightImage": "Stirling_GT_N.webp"
+    },
+    {
+        "name": "Stratum",
+        "model": "stratum",
+        "dayImage": "Stratum_D.webp",
+        "nightImage": "Stratum_N.webp"
+    },
+    {
+        "name": "Streiter",
+        "model": "streiter",
+        "dayImage": "Streiter_D.webp",
+        "nightImage": "Streiter_N.webp"
+    },
+    {
+        "name": "Stromberg",
+        "model": "stromberg",
+        "dayImage": "Stromberg_D.webp",
+        "nightImage": "Stromberg_N.webp"
+    },
+    {
+        "name": "Sugoi",
+        "model": "sugoi",
+        "dayImage": "Sugoi_D.webp",
+        "nightImage": "Sugoi_N.webp"
+    },
+    {
+        "name": "Sultan RS",
+        "model": "sultanrs",
+        "dayImage": "Sultan_RS_D.webp",
+        "nightImage": "Sultan_RS_N.webp"
+    },
+    {
+        "name": "Sultan RS Classic",
+        "model": "sultanrs2",
+        "dayImage": "Sultan_RS_Classic_D.webp",
+        "nightImage": "Sultan_RS_Classic_N.webp"
+    },
+    {
+        "name": "Surano",
+        "model": "surano",
+        "dayImage": "Surano_D.webp",
+        "nightImage": "Surano_N.webp"
+    },
+    {
+        "name": "Suzume",
+        "model": "suzume",
+        "dayImage": "Suzume_D.webp",
+        "nightImage": "Suzume_N.webp"
+    },
+    {
+        "name": "T20",
+        "model": "t20",
+        "dayImage": "T20_D.webp",
+        "nightImage": "T20_N.webp"
+    },
+    {
+        "name": "Taipan",
+        "model": "taipan",
+        "dayImage": "Taipan_D.webp",
+        "nightImage": "Taipan_N.webp"
+    },
+    {
+        "name": "Technical Aqua",
+        "model": "technical2",
+        "dayImage": "Technical_Aqua_D.webp",
+        "nightImage": "Technical_Aqua_N.webp"
+    },
+    {
+        "name": "Tempesta",
+        "model": "tempesta",
+        "dayImage": "Tempesta_D.webp",
+        "nightImage": "Tempesta_N.webp"
+    },
+    {
+        "name": "Terminus Patrol",
+        "model": "terminus",
+        "dayImage": "Terminus_Patrol_D.webp",
+        "nightImage": "Terminus_Patrol_N.webp"
+    },
+    {
+        "name": "Tezeract",
+        "model": "tezeract",
+        "dayImage": "Tezeract_D.webp",
+        "nightImage": "Tezeract_N.webp"
+    },
+    {
+        "name": "Thrax",
+        "model": "thrax",
+        "dayImage": "Thrax_D.webp",
+        "nightImage": "Thrax_N.webp"
+    },
+    {
+        "name": "Tigon",
+        "model": "tigon",
+        "dayImage": "Tigon_D.webp",
+        "nightImage": "Tigon_N.webp"
+    },
+    {
+        "name": "Toreador",
+        "model": "toreador",
+        "dayImage": "Toreador_D.webp",
+        "nightImage": "Toreador_N.webp"
+    },
+    {
+        "name": "Torero",
+        "model": "torero",
+        "dayImage": "Torero_D.webp",
+        "nightImage": "Torero_N.webp"
+    },
+    {
+        "name": "Torero XO",
+        "model": "toreroxo",
+        "dayImage": "Torero_XO_D.webp",
+        "nightImage": "Torero_XO_N.webp"
+    },
+    {
+        "name": "Tornado",
+        "model": "tornado2",
+        "dayImage": "Tornado_D.webp",
+        "nightImage": "Tornado_N.webp"
+    },
+    {
+        "name": "Tornado Custom",
+        "model": "tornado3",
+        "dayImage": "Tornado_Custom_D.webp",
+        "nightImage": "Tornado_Custom_N.webp"
+    },
+    {
+        "name": "Tornado Custom 2",
+        "model": "tornado4",
+        "dayImage": "Tornado_Custom_2_D.webp",
+        "nightImage": "Tornado_Custom_2_N.webp"
+    },
+    {
+        "name": "Tornado Rat Rod",
+        "model": "tornadorod",
+        "dayImage": "Tornado_Rat_Rod_D.webp",
+        "nightImage": "Tornado_Rat_Rod_N.webp"
+    },
+    {
+        "name": "Tropos Rallye",
+        "model": "tropos",
+        "dayImage": "Tropos_Rallye_D.webp",
+        "nightImage": "Tropos_Rallye_N.webp"
+    },
+    {
+        "name": "Turismo Classic",
+        "model": "turismo2",
+        "dayImage": "Turismo_Classic_D.webp",
+        "nightImage": "Turismo_Classic_N.webp"
+    },
+    {
+        "name": "Turismo Omaggio",
+        "model": "turismo3",
+        "dayImage": "Turismo_Omaggio_D.webp",
+        "nightImage": "Turismo_Omaggio_N.webp"
+    },
+    {
+        "name": "Turismo R",
+        "model": "turismor",
+        "dayImage": "Turismo_R_D.webp",
+        "nightImage": "Turismo_R_N.webp"
+    },
+    {
+        "name": "Tyrant",
+        "model": "tyrant",
+        "dayImage": "Tyrant_D.webp",
+        "nightImage": "Tyrant_N.webp"
+    },
+    {
+        "name": "Tyrus",
+        "model": "tyrus",
+        "dayImage": "Tyrus_D.webp",
+        "nightImage": "Tyrus_N.webp"
+    },
+    {
+        "name": "Uranus LozSpeed",
+        "model": "uranus2",
+        "dayImage": "Uranus_LozSpeed_D.webp",
+        "nightImage": "Uranus_LozSpeed_N.webp"
+    },
+    {
+        "name": "V-STR",
+        "model": "vstr",
+        "dayImage": "V-STR_D.webp",
+        "nightImage": "V-STR_N.webp"
+    },
+    {
+        "name": "Vacca",
+        "model": "vacca",
+        "dayImage": "Vacca_D.webp",
+        "nightImage": "Vacca_N.webp"
+    },
+    {
+        "name": "Vagner",
+        "model": "vagner",
+        "dayImage": "Vagner_D.webp",
+        "nightImage": "Vagner_N.webp"
+    },
+    {
+        "name": "Vagrant",
+        "model": "vagrant",
+        "dayImage": "Vagrant_D.webp",
+        "nightImage": "Vagrant_N.webp"
+    },
+    {
+        "name": "Vectre",
+        "model": "vectre",
+        "dayImage": "Vectre_D.webp",
+        "nightImage": "Vectre_N.webp"
+    },
+    {
+        "name": "Verlierer",
+        "model": "verlierer",
+        "dayImage": "Verlierer_D.webp",
+        "nightImage": "Verlierer_N.webp"
+    },
+    {
+        "name": "Veto Classic",
+        "model": "veto",
+        "dayImage": "Veto_Classic_D.webp",
+        "nightImage": "Veto_Classic_N.webp"
+    },
+    {
+        "name": "Veto Modern",
+        "model": "veto2",
+        "dayImage": "Veto_Modern_D.webp",
+        "nightImage": "Veto_Modern_N.webp"
+    },
+    {
+        "name": "Vigero ZX Convertible",
+        "model": "vigero2",
+        "dayImage": "Vigero_ZX_Convertible_D.webp",
+        "nightImage": "Vigero_ZX_Convertible_N.webp"
+    },
+    {
+        "name": "Vigilante",
+        "model": "vigilante",
+        "dayImage": "Vigilante_D.webp",
+        "nightImage": "Vigilante_N.webp"
+    },
+    {
+        "name": "Virtue",
+        "model": "virtue",
+        "dayImage": "Virtue_D.webp",
+        "nightImage": "Virtue_N.webp"
+    },
+    {
+        "name": "Viseris",
+        "model": "viseris",
+        "dayImage": "Viseris_D.webp",
+        "nightImage": "Viseris_N.webp"
+    },
+    {
+        "name": "Visione",
+        "model": "visione",
+        "dayImage": "Visione_D.webp",
+        "nightImage": "Visione_N.webp"
+    },
+    {
+        "name": "Vivanite",
+        "model": "vivanite",
+        "dayImage": "Vivanite_D.webp",
+        "nightImage": "Vivanite_N.webp"
+    },
+    {
+        "name": "Voltic",
+        "model": "voltic",
+        "dayImage": "Voltic_D.webp",
+        "nightImage": "Voltic_N.webp"
+    },
+    {
+        "name": "Warrener",
+        "model": "warrener",
+        "dayImage": "Warrener_D.webp",
+        "nightImage": "Warrener_N.webp"
+    },
+    {
+        "name": "Wastelander",
+        "model": "wastelander",
+        "dayImage": "Wastelander_D.webp",
+        "nightImage": "Wastelander_N.webp"
+    },
+    {
+        "name": "Weaponized Ignus",
+        "model": "weaponizedignus",
+        "dayImage": "Weaponized_Ignus_D.webp",
+        "nightImage": "Weaponized_Ignus_N.webp"
+    },
+    {
+        "name": "Weaponized Tampa",
+        "model": "weaponizedtampa",
+        "dayImage": "Weaponized_Tampa_D.webp",
+        "nightImage": "Weaponized_Tampa_N.webp"
+    },
+    {
+        "name": "Weevil",
+        "model": "weevil",
+        "dayImage": "Weevil_D.webp",
+        "nightImage": "Weevil_N.webp"
+    },
+    {
+        "name": "Windsor Drop",
+        "model": "windsor2",
+        "dayImage": "Windsor_Drop_D.webp",
+        "nightImage": "Windsor_Drop_N.webp"
+    },
+    {
+        "name": "Winky",
+        "model": "winky",
+        "dayImage": "Winky_D.webp",
+        "nightImage": "Winky_N.webp"
+    },
+    {
+        "name": "X-treme",
+        "model": "xtreme",
+        "dayImage": "X-treme_D.webp",
+        "nightImage": "X-treme_N.webp"
+    },
+    {
+        "name": "X80 Proto",
+        "model": "x80proto",
+        "dayImage": "X80_Proto_D.webp",
+        "nightImage": "X80_Proto_N.webp"
+    },
+    {
+        "name": "XA-21",
+        "model": "xa21",
+        "dayImage": "XA-21_D.webp",
+        "nightImage": "XA-21_N.webp"
+    },
+    {
+        "name": "Youga Custom",
+        "model": "youga2",
+        "dayImage": "Youga_Custom_D.webp",
+        "nightImage": "Youga_Custom_N.webp"
+    },
+    {
+        "name": "Z-Type",
+        "model": "ztype",
+        "dayImage": "Z-Type_D.webp",
+        "nightImage": "Z-Type_N.webp"
+    },
+    {
+        "name": "ZR350",
+        "model": "zr350",
+        "dayImage": "ZR350_D.webp",
+        "nightImage": "ZR350_N.webp"
+    },
+    {
+        "name": "Zeno",
+        "model": "zeno",
+        "dayImage": "Zeno_D.webp",
+        "nightImage": "Zeno_N.webp"
+    },
+    {
+        "name": "Zentorno",
+        "model": "zentorno",
+        "dayImage": "Zentorno_D.webp",
+        "nightImage": "Zentorno_N.webp"
+    },
+    {
+        "name": "Zhaba",
+        "model": "zhaba",
+        "dayImage": "Zhaba_D.webp",
+        "nightImage": "Zhaba_N.webp"
+    },
+    {
+        "name": "Zion Classic",
+        "model": "zion2",
+        "dayImage": "Zion_Classic_D.webp",
+        "nightImage": "Zion_Classic_N.webp"
+    },
+    {
+        "name": "Zorrusso",
+        "model": "zorrusso",
+        "dayImage": "Zorrusso_D.webp",
+        "nightImage": "Zorrusso_N.webp"
+    }
 ]
