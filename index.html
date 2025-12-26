@@ -77,20 +77,21 @@
 			#viewer {
 				flex: 1;
 				display: flex;
-				justify-content: center;
+				flex-direction: column;
+				justify-content: center; /* start from top */
 				align-items: center;
 				background: #111;
-				padding: 0;
+				padding: 20px 0;
 			}
 
 			/* Canvas wrapper: maintain 16:9 ratio */
 			#canvasWrapper {
-				position: relative;
-				width: 100%;
-				max-width: 95%; /* limit width so it doesn’t stretch too much */
+				width: 90%; /* or whatever max width */
+				max-width: 100%; /* optional */
 				aspect-ratio: 16 / 9;
 				border-radius: 16px;
 				overflow: hidden;
+				margin-bottom: 15px; /* space for info box */
 			}
 
 			/* Canvas styling */
@@ -112,6 +113,16 @@
 			}
 			#sidebar::-webkit-scrollbar-track {
 				background-color: #1e1e1e;
+			}
+
+			#vehicleInfo {
+				width: 90%; /* match canvas width */
+				max-width: 1200px;
+				background: #1e1e1e;
+				padding: 15px;
+				border-radius: 8px;
+				color: #ddd;
+				font-size: 14px;
 			}
 
 			/* Mobile Styles */
@@ -186,6 +197,7 @@
 			<div id="canvasWrapper">
 				<canvas id="viewerCanvas"></canvas>
 			</div>
+			<div id="vehicleInfo"></div>
 		</div>
 
 		<script>
@@ -215,6 +227,27 @@
 						selectVehicle(window.vehicles[0]); // now passes the object, not the string
 					}
 				});
+
+			// Update vehicle info display
+			const vehicleInfoDiv = document.getElementById("vehicleInfo");
+
+			function updateVehicleInfo(vehicle) {
+				if (!vehicle) {
+					vehicleInfoDiv.innerHTML = "";
+					return;
+				}
+
+				vehicleInfoDiv.innerHTML = `
+        <p><strong>Name:</strong> ${vehicle.name}</p>
+        <p><strong>Model:</strong> ${vehicle.model}</p>
+        <p><strong>Type:</strong> ${vehicle.type}</p>
+        <p><strong>Class:</strong> ${vehicle.class}</p>
+        <p><strong>Seats:</strong> ${vehicle.seats}</p>
+        <p><strong>Drivetrain:</strong> ${vehicle.drivetrain}</p>
+        <p><strong>Mass:</strong> ${vehicle.mass}</p>
+        <p><strong>Features:</strong> ${vehicle.features}</p>
+    `;
+			}
 
 			// Render vehicle list
 			function renderList(filter = "") {
@@ -311,6 +344,8 @@
 						drawCanvas();
 					}
 				);
+
+				updateVehicleInfo(vehicle);
 
 				if (isMobile()) {
 					vehicleList.classList.remove("visible");

@@ -3,1698 +3,3347 @@
         "name": "10F Widebody",
         "model": "tenf2",
         "dayImage": "10F_Widebody_D.webp",
-        "nightImage": "10F_Widebody_N.webp"
+        "nightImage": "10F_Widebody_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,650 kg",
+        "features": "Has Imani Tech (Jammer),Has liveries"
     },
     {
         "name": "190z",
         "model": "z190",
         "dayImage": "190z_D.webp",
-        "nightImage": "190z_N.webp"
+        "nightImage": "190z_N.webp",
+        "type": "Car",
+        "class": "Sports Classics",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,100 kg",
+        "features": "Has liveries"
     },
     {
         "name": "300R",
         "model": "r300",
         "dayImage": "300R_D.webp",
-        "nightImage": "300R_N.webp"
+        "nightImage": "300R_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,590 kg",
+        "features": "Has Imani Tech (Full),Has liveries,Has proximity mines"
     },
     {
         "name": "811",
         "model": "pfister811",
         "dayImage": "811_D.webp",
-        "nightImage": "811_N.webp"
+        "nightImage": "811_N.webp",
+        "type": "Car",
+        "class": "Supers",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "All wheel drive(20F/80R)",
+        "mass": "1,600 kg",
+        "features": "Has Imani Tech (Jammer)"
     },
     {
         "name": "8F Drafter",
         "model": "drafter",
         "dayImage": "8F_Drafter_D.webp",
-        "nightImage": "8F_Drafter_N.webp"
+        "nightImage": "8F_Drafter_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "All wheel drive(40F/60R)",
+        "mass": "1,650 kg",
+        "features": "Has liveries"
     },
     {
         "name": "9F",
         "model": "ninef",
         "dayImage": "9F_D.webp",
-        "nightImage": "9F_N.webp"
+        "nightImage": "9F_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "All wheel drive(20F/80R)",
+        "mass": "1,300 kg",
+        "features": "Has Imani Tech (Jammer)"
     },
     {
         "name": "9F Cabrio",
         "model": "ninef2",
         "dayImage": "9F_Cabrio_D.webp",
-        "nightImage": "9F_Cabrio_N.webp"
+        "nightImage": "9F_Cabrio_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "All wheel drive(20F/80R)",
+        "mass": "1,300 kg",
+        "features": "Has convertible roof,Has Imani Tech (Jammer)"
     },
     {
         "name": "Adder",
         "model": "adder",
         "dayImage": "Adder_D.webp",
-        "nightImage": "Adder_N.webp"
+        "nightImage": "Adder_N.webp",
+        "type": "Car",
+        "class": "Supers",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "All wheel drive(20F/80R)",
+        "mass": "1,800 kg"
     },
     {
         "name": "Alpha",
         "model": "alpha",
         "dayImage": "Alpha_D.webp",
-        "nightImage": "Alpha_N.webp"
+        "nightImage": "Alpha_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,800 kg"
     },
     {
         "name": "Apocalypse ZR380",
         "model": "zr380",
         "dayImage": "Apocalypse_ZR380_D.webp",
-        "nightImage": "Apocalypse_ZR380_N.webp"
+        "nightImage": "Apocalypse_ZR380_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,600 kg",
+        "features": "Can jump,Has liveries,Has proximity mines,Weaponized"
     },
     {
         "name": "Ardent",
         "model": "ardent",
         "dayImage": "Ardent_D.webp",
-        "nightImage": "Ardent_N.webp"
+        "nightImage": "Ardent_N.webp",
+        "type": "Car",
+        "class": "Sports Classics",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,200 kg",
+        "features": "Has hidden/pop-up headlights,Has liveries,Weaponized"
     },
     {
         "name": "Armored Boxville",
         "model": "boxville5",
         "dayImage": "Armored_Boxville_D.webp",
-        "nightImage": "Armored_Boxville_N.webp"
+        "nightImage": "Armored_Boxville_N.webp",
+        "type": "Car",
+        "class": "Vans",
+        "seats": "5(driver, gunner and three passengers)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "7,500 kg",
+        "features": "Weaponized"
     },
     {
         "name": "Astron Custom",
         "model": "astron2",
         "dayImage": "Astron_Custom_D.webp",
-        "nightImage": "Astron_Custom_N.webp"
+        "nightImage": "Astron_Custom_N.webp",
+        "type": "Car",
+        "class": "SUVs",
+        "seats": "4(driver and three passengers)",
+        "drivetrain": "All wheel drive(44F/56R)",
+        "mass": "1,970 kg",
+        "features": "Has liveries"
     },
     {
         "name": "Autarch",
         "model": "autarch",
         "dayImage": "Autarch_D.webp",
-        "nightImage": "Autarch_N.webp"
+        "nightImage": "Autarch_N.webp",
+        "type": "Car",
+        "class": "Supers",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,300 kg",
+        "features": "Has non-standard doors"
     },
     {
         "name": "Banshee",
         "model": "banshee",
         "dayImage": "Banshee_D.webp",
-        "nightImage": "Banshee_N.webp"
+        "nightImage": "Banshee_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,200 kg",
+        "features": "Has liveries"
     },
     {
         "name": "Banshee 900R",
         "model": "banshee2",
         "dayImage": "Banshee_900R_D.webp",
-        "nightImage": "Banshee_900R_N.webp"
+        "nightImage": "Banshee_900R_N.webp",
+        "type": "Car",
+        "class": "Supers",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,150 kg",
+        "features": "Has liveries"
     },
     {
         "name": "Banshee GTS",
-        "model": "bansheegts",
+        "model": "banshee3",
         "dayImage": "Banshee_GTS_D.webp",
-        "nightImage": "Banshee_GTS_N.webp"
+        "nightImage": "Banshee_GTS_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,550 kg",
+        "features": "Has Imani Tech (Jammer),Has liveries"
     },
     {
         "name": "Bati 801",
         "model": "bati",
         "dayImage": "Bati_801_D.webp",
-        "nightImage": "Bati_801_N.webp"
+        "nightImage": "Bati_801_N.webp",
+        "type": "Bike",
+        "class": "Motorcycles",
+        "seats": "2(rider and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "230 kg",
+        "features": "Has Imani Tech (Jammer)"
     },
     {
         "name": "Bestia GTS",
         "model": "bestiagts",
         "dayImage": "Bestia_GTS_D.webp",
-        "nightImage": "Bestia_GTS_N.webp"
+        "nightImage": "Bestia_GTS_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "All wheel drive(30F/70R)",
+        "mass": "1,800 kg"
     },
     {
         "name": "Blazer Aqua",
         "model": "blazer5",
         "dayImage": "Blazer_Aqua_D.webp",
-        "nightImage": "Blazer_Aqua_N.webp"
+        "nightImage": "Blazer_Aqua_N.webp",
+        "type": "Amphibious Quadbike",
+        "class": "Off-Road",
+        "seats": "1(driver)",
+        "drivetrain": "All wheel drive(50F/50R)",
+        "mass": "550 kg",
+        "features": "Amphibious vehicle,Immune to bushes,Weaponized"
     },
     {
         "name": "Blista Compact",
         "model": "blista",
         "dayImage": "Blista_Compact_D.webp",
-        "nightImage": "Blista_Compact_N.webp"
+        "nightImage": "Blista_Compact_N.webp",
+        "type": "Car",
+        "class": "Compacts",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Front wheel drive",
+        "mass": "1,200 kg"
     },
     {
         "name": "Blista Kanjo",
         "model": "kanjo",
         "dayImage": "Blista_Kanjo_D.webp",
-        "nightImage": "Blista_Kanjo_N.webp"
+        "nightImage": "Blista_Kanjo_N.webp",
+        "type": "Car",
+        "class": "Compacts",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Front wheel drive",
+        "mass": "1,150 kg",
+        "features": "Has liveries"
     },
     {
         "name": "Brickade 6x6",
         "model": "brickade2",
         "dayImage": "Brickade_6x6_D.webp",
-        "nightImage": "Brickade_6x6_N.webp"
+        "nightImage": "Brickade_6x6_N.webp",
+        "type": "Car",
+        "class": "Service",
+        "seats": "6(driver, cab passenger and four passengers hanging on the sides)",
+        "drivetrain": "All wheel drive(25F/75R)",
+        "mass": "14,000 kg",
+        "features": "Has liveries,Has proximity mines,Immune to bushes,Passengers can hang on side"
     },
     {
         "name": "Buffalo EVX",
         "model": "buffalo5",
         "dayImage": "Buffalo_EVX_D.webp",
-        "nightImage": "Buffalo_EVX_N.webp"
+        "nightImage": "Buffalo_EVX_N.webp",
+        "type": "Car",
+        "class": "Muscle",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "All wheel drive(30F/70R)",
+        "mass": "1,820 kg",
+        "features": "Electric vehicle,Has Imani Tech (Full),Has liveries,Has proximity mines"
     },
     {
         "name": "Buffalo S",
-        "model": "buffalos",
+        "model": "buffalo2",
         "dayImage": "Buffalo_S_D.webp",
-        "nightImage": "Buffalo_S_N.webp"
+        "nightImage": "Buffalo_S_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "4(driver and three passengers)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,650 kg",
+        "features": "Has Imani Tech (Jammer)"
     },
     {
         "name": "Bullet",
         "model": "bullet",
         "dayImage": "Bullet_D.webp",
-        "nightImage": "Bullet_N.webp"
+        "nightImage": "Bullet_N.webp",
+        "type": "Car",
+        "class": "Supers",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,100 kg"
     },
     {
         "name": "Calico GTF",
         "model": "calico",
         "dayImage": "Calico_GTF_D.webp",
-        "nightImage": "Calico_GTF_N.webp"
+        "nightImage": "Calico_GTF_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "All wheel drive(48F/52R)",
+        "mass": "1,448 kg",
+        "features": "Has Imani Tech (Jammer),Has liveries,Lowered stance available"
     },
     {
         "name": "Caracara Pursuit",
         "model": "caracara2",
         "dayImage": "Caracara_Pursuit_D.webp",
-        "nightImage": "Caracara_Pursuit_N.webp"
+        "nightImage": "Caracara_Pursuit_N.webp",
+        "type": "Car",
+        "class": "Off-Road",
+        "seats": "4(driver and three passengers)",
+        "drivetrain": "All wheel drive(50F/50R)",
+        "mass": "2,480 kg",
+        "features": "Has Imani Tech (Jammer),Has liveries,Immune to bushes"
     },
     {
         "name": "Carbonizzare",
         "model": "carbonizzare",
         "dayImage": "Carbonizzare_D.webp",
-        "nightImage": "Carbonizzare_N.webp"
+        "nightImage": "Carbonizzare_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,600 kg",
+        "features": "Has convertible roof"
     },
     {
         "name": "Casco",
         "model": "casco",
         "dayImage": "Casco_D.webp",
-        "nightImage": "Casco_N.webp"
+        "nightImage": "Casco_N.webp",
+        "type": "Car",
+        "class": "Sports Classics",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,100 kg"
     },
     {
         "name": "Castigator",
         "model": "castigator",
         "dayImage": "Castigator_D.webp",
-        "nightImage": "Castigator_N.webp"
+        "nightImage": "Castigator_N.webp",
+        "type": "Car",
+        "class": "SUVs",
+        "seats": "4(driver and three passengers)",
+        "drivetrain": "All wheel drive(50F/50R)",
+        "mass": "2,050 kg",
+        "features": "Has liveries"
     },
     {
         "name": "Cavalcade XL",
         "model": "cavalcade3",
         "dayImage": "Cavalcade_XL_D.webp",
-        "nightImage": "Cavalcade_XL_N.webp"
+        "nightImage": "Cavalcade_XL_N.webp",
+        "type": "Car",
+        "class": "SUVs",
+        "seats": "4(driver and three passengers)",
+        "drivetrain": "All wheel drive(50F/50R)",
+        "mass": "3,170 kg",
+        "features": "Has liveries"
     },
     {
         "name": "Champion",
         "model": "champion",
         "dayImage": "Champion_D.webp",
-        "nightImage": "Champion_N.webp"
+        "nightImage": "Champion_N.webp",
+        "type": "Car",
+        "class": "Supers",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,500 kg",
+        "features": "Has Imani Tech (Full),Has liveries,Has proximity mines,Weaponized"
     },
     {
         "name": "Chavos V6",
         "model": "chavosv6",
         "dayImage": "Chavos_V6_D.webp",
-        "nightImage": "Chavos_V6_N.webp"
+        "nightImage": "Chavos_V6_N.webp",
+        "type": "Car",
+        "class": "Sedans",
+        "seats": "4(driver and three passengers)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,430 kg",
+        "features": "Has Imani Tech (Jammer),Has liveries"
     },
     {
         "name": "Cheburek",
         "model": "cheburek",
         "dayImage": "Cheburek_D.webp",
-        "nightImage": "Cheburek_N.webp"
+        "nightImage": "Cheburek_N.webp",
+        "type": "Car",
+        "class": "Sports Classics",
+        "seats": "4(driver and three passengers)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,100 kg",
+        "features": "Has Imani Tech (Jammer),Has liveries"
     },
     {
         "name": "Cheetah",
         "model": "cheetah",
         "dayImage": "Cheetah_D.webp",
-        "nightImage": "Cheetah_N.webp"
+        "nightImage": "Cheetah_N.webp",
+        "type": "Car",
+        "class": "Supers",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,400 kg"
     },
     {
         "name": "Cheetah Classic",
         "model": "cheetah2",
         "dayImage": "Cheetah_Classic_D.webp",
-        "nightImage": "Cheetah_Classic_N.webp"
+        "nightImage": "Cheetah_Classic_N.webp",
+        "type": "Car",
+        "class": "Sports Classics",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,500 kg",
+        "features": "Has hidden/pop-up headlights"
     },
     {
         "name": "Cliffhanger",
         "model": "cliffhanger",
         "dayImage": "Cliffhanger_D.webp",
-        "nightImage": "Cliffhanger_N.webp"
+        "nightImage": "Cliffhanger_N.webp",
+        "type": "Bike",
+        "class": "Motorcycles",
+        "seats": "2(rider and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "140 kg",
+        "features": "Has liveries,Has no plate"
     },
     {
         "name": "Comet Retro Custom",
         "model": "comet3",
         "dayImage": "Comet_Retro_Custom_D.webp",
-        "nightImage": "Comet_Retro_Custom_N.webp"
+        "nightImage": "Comet_Retro_Custom_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,200 kg",
+        "features": "Has liveries"
     },
     {
         "name": "Comet S2",
         "model": "comet6",
         "dayImage": "Comet_S2_D.webp",
-        "nightImage": "Comet_S2_N.webp"
+        "nightImage": "Comet_S2_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,550 kg",
+        "features": "Has Imani Tech (Jammer),Has liveries,Lowered stance available"
     },
     {
         "name": "Comet S2 Cabrio",
         "model": "comet7",
         "dayImage": "Comet_S2_Cabrio_D.webp",
-        "nightImage": "Comet_S2_Cabrio_N.webp"
+        "nightImage": "Comet_S2_Cabrio_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,650 kg",
+        "features": "Has convertible roof,Has Imani Tech (Jammer),Has liveries"
     },
     {
         "name": "Comet SR",
         "model": "comet5",
         "dayImage": "Comet_SR_D.webp",
-        "nightImage": "Comet_SR_N.webp"
+        "nightImage": "Comet_SR_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,550 kg",
+        "features": "Has Imani Tech (Jammer)"
     },
     {
         "name": "Comet Safari",
         "model": "comet4",
         "dayImage": "Comet_Safari_D.webp",
-        "nightImage": "Comet_Safari_N.webp"
+        "nightImage": "Comet_Safari_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "All wheel drive(30F/70R)",
+        "mass": "1,150 kg",
+        "features": "Has liveries,Has no plate,Immune to bushes,Weaponized"
     },
     {
         "name": "Coquette",
         "model": "coquette",
         "dayImage": "Coquette_D.webp",
-        "nightImage": "Coquette_N.webp"
+        "nightImage": "Coquette_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,400 kg"
     },
     {
         "name": "Coquette Classic",
         "model": "coquette2",
         "dayImage": "Coquette_Classic_D.webp",
-        "nightImage": "Coquette_Classic_N.webp"
+        "nightImage": "Coquette_Classic_N.webp",
+        "type": "Car",
+        "class": "Sports Classics",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,400 kg",
+        "features": "Has liveries"
     },
     {
         "name": "Coquette D1",
-        "model": "coquetted1",
+        "model": "coquette5",
         "dayImage": "Coquette_D1_D.webp",
-        "nightImage": "Coquette_D1_N.webp"
+        "nightImage": "Coquette_D1_N.webp",
+        "type": "Car",
+        "class": "Sports Classics",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,350 kg",
+        "features": "Has liveries"
     },
     {
         "name": "Coquette D10",
         "model": "coquette4",
         "dayImage": "Coquette_D10_D.webp",
-        "nightImage": "Coquette_D10_N.webp"
+        "nightImage": "Coquette_D10_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,600 kg",
+        "features": "Has liveries"
     },
     {
         "name": "Coquette D10 Pursuit",
-        "model": "coquette4c",
+        "model": "polcoquette4",
         "dayImage": "Coquette_D10_Pursuit_D.webp",
-        "nightImage": "Coquette_D10_Pursuit_N.webp"
+        "nightImage": "Coquette_D10_Pursuit_N.webp",
+        "type": "Car",
+        "class": "Emergency",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,660 kg",
+        "features": "Cop car,Has Imani Tech (Jammer),Has liveries,Has sirens/lights"
     },
     {
         "name": "Coquette D5",
-        "model": "coquetted5",
+        "model": "coquette6",
         "dayImage": "Coquette_D5_D.webp",
-        "nightImage": "Coquette_D5_N.webp"
+        "nightImage": "Coquette_D5_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,420 kg",
+        "features": "Has Imani Tech (Jammer),Has liveries"
     },
     {
         "name": "Corsita",
         "model": "corsita",
         "dayImage": "Corsita_D.webp",
-        "nightImage": "Corsita_N.webp"
+        "nightImage": "Corsita_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,500 kg",
+        "features": "Has liveries,Has non-standard doors"
     },
     {
         "name": "Cyclone",
         "model": "cyclone",
         "dayImage": "Cyclone_D.webp",
-        "nightImage": "Cyclone_N.webp"
+        "nightImage": "Cyclone_N.webp",
+        "type": "Car",
+        "class": "Supers",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "All wheel drive(50F/50R)",
+        "mass": "1,800 kg",
+        "features": "Electric vehicle,Has Imani Tech (Jammer),Has liveries"
     },
     {
         "name": "Cyclone II",
         "model": "cyclone2",
         "dayImage": "Cyclone_II_D.webp",
-        "nightImage": "Cyclone_II_N.webp"
+        "nightImage": "Cyclone_II_N.webp",
+        "type": "Car",
+        "class": "Supers",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "All wheel drive(50F/50R)",
+        "mass": "1,800 kg",
+        "features": "Electric vehicle,Has liveries,Has non-standard doors"
     },
     {
         "name": "Cypher",
         "model": "cypher",
         "dayImage": "Cypher_D.webp",
-        "nightImage": "Cypher_N.webp"
+        "nightImage": "Cypher_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,625 kg",
+        "features": "Has liveries,Lowered stance available"
     },
     {
         "name": "Daemon",
         "model": "daemon",
         "dayImage": "Daemon_D.webp",
-        "nightImage": "Daemon_N.webp"
+        "nightImage": "Daemon_N.webp",
+        "type": "Bike",
+        "class": "Motorcycles",
+        "seats": "2(rider and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "250 kg"
     },
     {
         "name": "Deluxo",
         "model": "deluxo",
         "dayImage": "Deluxo_D.webp",
-        "nightImage": "Deluxo_N.webp"
+        "nightImage": "Deluxo_N.webp",
+        "type": "Car",
+        "class": "Sports Classics",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,600 kg",
+        "features": "Flying car/bike,Has non-standard doors,Immune to bushes,Weaponized"
     },
     {
         "name": "Deveste Eight",
         "model": "deveste",
         "dayImage": "Deveste_Eight_D.webp",
-        "nightImage": "Deveste_Eight_N.webp"
+        "nightImage": "Deveste_Eight_N.webp",
+        "type": "Car",
+        "class": "Supers",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "3,000 kg",
+        "features": "Has Imani Tech (Jammer),Has liveries,Has no plate,Has non-standard doors"
     },
     {
         "name": "Dominator FX Interceptor",
         "model": "dominator7",
         "dayImage": "Dominator_FX_Interceptor_D.webp",
-        "nightImage": "Dominator_FX_Interceptor_N.webp"
+        "nightImage": "Dominator_FX_Interceptor_N.webp",
+        "type": "Car",
+        "class": "Muscle",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,665 kg",
+        "features": "Has Imani Tech (Jammer),Has liveries,Lowered stance available"
     },
     {
         "name": "Dorado Cruiser",
-        "model": "doradocruiser",
+        "model": "poldorado",
         "dayImage": "Dorado_Cruiser_D.webp",
-        "nightImage": "Dorado_Cruiser_N.webp"
+        "nightImage": "Dorado_Cruiser_N.webp",
+        "type": "Car",
+        "class": "Emergency",
+        "seats": "4(driver and three passengers)",
+        "drivetrain": "All wheel drive(50F/50R)",
+        "mass": "2,150 kg",
+        "features": "Cop car,Has Imani Tech (Jammer),Has liveries,Has sirens/lights,Immune to bushes"
     },
     {
         "name": "Drift Tampa",
         "model": "tampa2",
         "dayImage": "Drift_Tampa_D.webp",
-        "nightImage": "Drift_Tampa_N.webp"
+        "nightImage": "Drift_Tampa_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "All wheel drive(25F/75R)",
+        "mass": "1,100 kg",
+        "features": "Has liveries"
     },
     {
         "name": "Dubsta",
         "model": "dubsta",
         "dayImage": "Dubsta_D.webp",
-        "nightImage": "Dubsta_N.webp"
+        "nightImage": "Dubsta_N.webp",
+        "type": "Car",
+        "class": "SUVs",
+        "seats": "4(driver and three passengers)",
+        "drivetrain": "All wheel drive(60F/40R)",
+        "mass": "2,400 kg"
     },
     {
         "name": "Dune FAV",
         "model": "dune3",
         "dayImage": "Dune_FAV_D.webp",
-        "nightImage": "Dune_FAV_N.webp"
+        "nightImage": "Dune_FAV_N.webp",
+        "type": "Car",
+        "class": "Off-Road",
+        "seats": "2(driver and gunner)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,800 kg",
+        "features": "Has liveries,Has proximity mines,Weaponized"
     },
     {
         "name": "Dynasty",
         "model": "dynasty",
         "dayImage": "Dynasty_D.webp",
-        "nightImage": "Dynasty_N.webp"
+        "nightImage": "Dynasty_N.webp",
+        "type": "Car",
+        "class": "Sports Classics",
+        "seats": "4(driver and three passengers)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,100 kg",
+        "features": "Has liveries"
     },
     {
         "name": "ETR1",
         "model": "sheava",
         "dayImage": "ETR1_D.webp",
-        "nightImage": "ETR1_N.webp"
+        "nightImage": "ETR1_N.webp",
+        "type": "Car",
+        "class": "Supers",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,400 kg",
+        "features": "Has Imani Tech (Jammer),Has liveries"
     },
     {
         "name": "Elegy RH8",
         "model": "elegy2",
         "dayImage": "Elegy_RH8_D.webp",
-        "nightImage": "Elegy_RH8_N.webp"
+        "nightImage": "Elegy_RH8_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "All wheel drive(30F/70R)",
+        "mass": "1,700 kg"
     },
     {
         "name": "Elegy Retro Custom",
         "model": "elegy",
         "dayImage": "Elegy_Retro_Custom_D.webp",
-        "nightImage": "Elegy_Retro_Custom_N.webp"
+        "nightImage": "Elegy_Retro_Custom_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "All wheel drive(25F/75R)",
+        "mass": "1,450 kg",
+        "features": "Has liveries"
     },
     {
         "name": "Emerus",
         "model": "emerus",
         "dayImage": "Emerus_D.webp",
-        "nightImage": "Emerus_N.webp"
+        "nightImage": "Emerus_N.webp",
+        "type": "Car",
+        "class": "Supers",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,198 kg",
+        "features": "Has liveries"
     },
     {
         "name": "Entity MT",
         "model": "entity3",
         "dayImage": "Entity_MT_D.webp",
-        "nightImage": "Entity_MT_N.webp"
+        "nightImage": "Entity_MT_N.webp",
+        "type": "Car",
+        "class": "Supers",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,420 kg",
+        "features": "Has Imani Tech (Jammer),Has liveries,Has non-standard doors"
     },
     {
         "name": "Entity XF",
         "model": "entityxf",
         "dayImage": "Entity_XF_D.webp",
-        "nightImage": "Entity_XF_N.webp"
+        "nightImage": "Entity_XF_N.webp",
+        "type": "Car",
+        "class": "Supers",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "All wheel drive(20F/80R)",
+        "mass": "1,500 kg"
     },
     {
         "name": "Entity XXR",
         "model": "entity2",
         "dayImage": "Entity_XXR_D.webp",
-        "nightImage": "Entity_XXR_N.webp"
+        "nightImage": "Entity_XXR_N.webp",
+        "type": "Car",
+        "class": "Supers",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,400 kg"
     },
     {
         "name": "Envisage",
         "model": "envisage",
         "dayImage": "Envisage_D.webp",
-        "nightImage": "Envisage_N.webp"
+        "nightImage": "Envisage_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "2,400 kg",
+        "features": "Electric vehicle,Has Imani Tech (Full),Has liveries,Has proximity mines"
     },
     {
         "name": "Euros",
         "model": "euros",
         "dayImage": "Euros_D.webp",
-        "nightImage": "Euros_N.webp"
+        "nightImage": "Euros_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,466 kg",
+        "features": "Has Imani Tech (Jammer),Has liveries,Lowered stance available"
     },
     {
         "name": "Everon",
         "model": "everon",
         "dayImage": "Everon_D.webp",
-        "nightImage": "Everon_N.webp"
+        "nightImage": "Everon_N.webp",
+        "type": "Car",
+        "class": "Off-Road",
+        "seats": "4(driver and three passengers)",
+        "drivetrain": "All wheel drive(50F/50R)",
+        "mass": "3,250 kg",
+        "features": "Has liveries,Immune to bushes"
     },
     {
         "name": "Everon RS",
         "model": "everon2",
         "dayImage": "Everon_RS_D.webp",
-        "nightImage": "Everon_RS_N.webp"
+        "nightImage": "Everon_RS_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,565 kg",
+        "features": "Has liveries,Has no plate"
     },
     {
         "name": "FCR 1000 Custom",
         "model": "fcr2",
         "dayImage": "FCR_1000_Custom_D.webp",
-        "nightImage": "FCR_1000_Custom_N.webp"
+        "nightImage": "FCR_1000_Custom_N.webp",
+        "type": "Bike",
+        "class": "Motorcycles",
+        "seats": "1(rider)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "200 kg",
+        "features": "Has liveries"
     },
     {
         "name": "FMJ",
         "model": "fmj",
         "dayImage": "FMJ_D.webp",
-        "nightImage": "FMJ_N.webp"
+        "nightImage": "FMJ_N.webp",
+        "type": "Car",
+        "class": "Supers",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,315 kg"
     },
     {
         "name": "FMJ MK V",
-        "model": "fmj5",
+        "model": "fmj2",
         "dayImage": "FMJ_MK_V_D.webp",
-        "nightImage": "FMJ_MK_V_N.webp"
+        "nightImage": "FMJ_MK_V_N.webp",
+        "type": "Car",
+        "class": "Supers",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,250 kg",
+        "features": "Has liveries"
     },
     {
         "name": "Faction Custom Donk",
         "model": "faction3",
         "dayImage": "Faction_Custom_Donk_D.webp",
-        "nightImage": "Faction_Custom_Donk_N.webp"
+        "nightImage": "Faction_Custom_Donk_N.webp",
+        "type": "Car",
+        "class": "Muscle",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,400 kg",
+        "features": "Has liveries,Has lowrider hydraulics,Has unique horn"
     },
     {
         "name": "Fagaloa",
         "model": "fagaloa",
         "dayImage": "Fagaloa_D.webp",
-        "nightImage": "Fagaloa_N.webp"
+        "nightImage": "Fagaloa_N.webp",
+        "type": "Car",
+        "class": "Sports Classics",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,100 kg",
+        "features": "Has liveries"
     },
     {
         "name": "Faggio Mod",
         "model": "faggio3",
         "dayImage": "Faggio_Mod_D.webp",
-        "nightImage": "Faggio_Mod_N.webp"
+        "nightImage": "Faggio_Mod_N.webp",
+        "type": "Bike",
+        "class": "Motorcycles",
+        "seats": "2(rider and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "100 kg",
+        "features": "Has liveries"
     },
     {
         "name": "Feltzer",
         "model": "feltzer2",
         "dayImage": "Feltzer_D.webp",
-        "nightImage": "Feltzer_N.webp"
+        "nightImage": "Feltzer_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,450 kg"
     },
     {
         "name": "Firebolt ASP",
-        "model": "fireboltasp",
+        "model": "firebolt",
         "dayImage": "Firebolt_ASP_D.webp",
-        "nightImage": "Firebolt_ASP_N.webp"
+        "nightImage": "Firebolt_ASP_N.webp",
+        "type": "Car",
+        "class": "Off-Road",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "2,120 kg",
+        "features": "Has Imani Tech (Jammer),Has liveries"
     },
     {
         "name": "Flash GT",
         "model": "flashgt",
         "dayImage": "Flash_GT_D.webp",
-        "nightImage": "Flash_GT_N.webp"
+        "nightImage": "Flash_GT_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "All wheel drive(20F/80R)",
+        "mass": "1,200 kg",
+        "features": "Has liveries,Immune to bushes"
     },
     {
         "name": "Franken Stange",
-        "model": "frankenstange",
+        "model": "btype2",
         "dayImage": "Franken_Stange_D.webp",
-        "nightImage": "Franken_Stange_N.webp"
+        "nightImage": "Franken_Stange_N.webp",
+        "type": "Car",
+        "class": "Sports Classics",
+        "seats": "4(driver and three passengers)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,800 kg",
+        "features": "Has liveries,Has no plate,Has unique horn"
     },
     {
         "name": "Furia",
         "model": "furia",
         "dayImage": "Furia_D.webp",
-        "nightImage": "Furia_N.webp"
+        "nightImage": "Furia_N.webp",
+        "type": "Car",
+        "class": "Supers",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "All wheel drive(50F/50R)",
+        "mass": "1,898 kg",
+        "features": "Has liveries,Has non-standard doors"
     },
     {
         "name": "Furore GT",
         "model": "furoregt",
         "dayImage": "Furore_GT_D.webp",
-        "nightImage": "Furore_GT_N.webp"
+        "nightImage": "Furore_GT_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,350 kg"
     },
     {
         "name": "Fusilade",
         "model": "fusilade",
         "dayImage": "Fusilade_D.webp",
-        "nightImage": "Fusilade_N.webp"
+        "nightImage": "Fusilade_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,500 kg"
     },
     {
         "name": "Futo",
         "model": "futo",
         "dayImage": "Futo_D.webp",
-        "nightImage": "Futo_N.webp"
+        "nightImage": "Futo_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "900 kg",
+        "features": "Has liveries"
     },
     {
         "name": "Futo GTX",
         "model": "futo2",
         "dayImage": "Futo_GTX_D.webp",
-        "nightImage": "Futo_GTX_N.webp"
+        "nightImage": "Futo_GTX_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "950 kg",
+        "features": "Has hidden/pop-up headlights,Has Imani Tech (Jammer),Has liveries,Lowered stance available"
     },
     {
         "name": "Future Shock Deathbike",
         "model": "deathbike2",
         "dayImage": "Future_Shock_Deathbike_D.webp",
-        "nightImage": "Future_Shock_Deathbike_N.webp"
+        "nightImage": "Future_Shock_Deathbike_N.webp",
+        "type": "Bike",
+        "class": "Motorcycles",
+        "seats": "1(rider)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "135 kg",
+        "features": "Can jump,Has liveries,Weaponized"
     },
     {
         "name": "Future Shock ZR380",
         "model": "zr3802",
         "dayImage": "Future_Shock_ZR380_D.webp",
-        "nightImage": "Future_Shock_ZR380_N.webp"
+        "nightImage": "Future_Shock_ZR380_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,600 kg",
+        "features": "Can jump,Has liveries,Has proximity mines,Weaponized"
     },
     {
         "name": "GB200",
         "model": "gb200",
         "dayImage": "GB200_D.webp",
-        "nightImage": "GB200_N.webp"
+        "nightImage": "GB200_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "All wheel drive(50F/50R)",
+        "mass": "1,180 kg",
+        "features": "Has liveries,Immune to bushes"
     },
     {
         "name": "GP1",
         "model": "gp1",
         "dayImage": "GP1_D.webp",
-        "nightImage": "GP1_N.webp"
+        "nightImage": "GP1_N.webp",
+        "type": "Car",
+        "class": "Supers",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,100 kg",
+        "features": "Has Imani Tech (Jammer),Has non-standard doors"
     },
     {
         "name": "GT500",
         "model": "gt500",
         "dayImage": "GT500_D.webp",
-        "nightImage": "GT500_N.webp"
+        "nightImage": "GT500_N.webp",
+        "type": "Car",
+        "class": "Sports Classics",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "800 kg",
+        "features": "Has liveries"
     },
     {
         "name": "GT750",
         "model": "gt750",
         "dayImage": "GT750_D.webp",
-        "nightImage": "GT750_N.webp"
+        "nightImage": "GT750_N.webp",
+        "type": "Car",
+        "class": "Sports Classics",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,600 kg",
+        "features": "Has liveries"
     },
     {
         "name": "Gauntlet Hellfire",
         "model": "gauntlet4",
         "dayImage": "Gauntlet_Hellfire_D.webp",
-        "nightImage": "Gauntlet_Hellfire_N.webp"
+        "nightImage": "Gauntlet_Hellfire_N.webp",
+        "type": "Car",
+        "class": "Muscle",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,940 kg",
+        "features": "Has Imani Tech (Jammer),Has liveries"
     },
     {
         "name": "Gauntlet Interceptor",
         "model": "gauntlet5",
         "dayImage": "Gauntlet_Interceptor_D.webp",
-        "nightImage": "Gauntlet_Interceptor_N.webp"
+        "nightImage": "Gauntlet_Interceptor_N.webp",
+        "type": "Car",
+        "class": "Muscle",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,700 kg",
+        "features": "Has hidden/pop-up headlights,Has liveries"
     },
     {
         "name": "Go Go Monkey Blista",
         "model": "blista3",
         "dayImage": "Go_Go_Monkey_Blista_D.webp",
-        "nightImage": "Go_Go_Monkey_Blista_N.webp"
+        "nightImage": "Go_Go_Monkey_Blista_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Front wheel drive",
+        "mass": "1,050 kg"
     },
     {
         "name": "Greenwood",
         "model": "greenwood",
         "dayImage": "Greenwood_D.webp",
-        "nightImage": "Greenwood_N.webp"
+        "nightImage": "Greenwood_N.webp",
+        "type": "Car",
+        "class": "Muscle",
+        "seats": "4(driver and three passengers)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,650 kg",
+        "features": "Has Imani Tech (Full),Has liveries,Has proximity mines"
     },
     {
         "name": "Greenwood Cruiser",
-        "model": "greenwood2",
+        "model": "polgreenwood",
         "dayImage": "Greenwood_Cruiser_D.webp",
-        "nightImage": "Greenwood_Cruiser_N.webp"
+        "nightImage": "Greenwood_Cruiser_N.webp",
+        "type": "Car",
+        "class": "Emergency",
+        "seats": "4(driver and three passengers)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,750 kg",
+        "features": "Cop car,Has Imani Tech (Jammer),Has liveries,Has sirens/lights"
     },
     {
         "name": "Growler",
         "model": "growler",
         "dayImage": "Growler_D.webp",
-        "nightImage": "Growler_N.webp"
+        "nightImage": "Growler_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,420 kg",
+        "features": "Has liveries,Lowered stance available"
     },
     {
         "name": "Guardian",
         "model": "guardian",
         "dayImage": "Guardian_D.webp",
-        "nightImage": "Guardian_N.webp"
+        "nightImage": "Guardian_N.webp",
+        "type": "Car",
+        "class": "Industrial",
+        "seats": "6(driver and five passengers)",
+        "drivetrain": "All wheel drive(35F/65R)",
+        "mass": "3,800 kg"
     },
     {
         "name": "Hakuchou Drag",
         "model": "hakuchou2",
         "dayImage": "Hakuchou_Drag_D.webp",
-        "nightImage": "Hakuchou_Drag_N.webp"
+        "nightImage": "Hakuchou_Drag_N.webp",
+        "type": "Bike",
+        "class": "Motorcycles",
+        "seats": "2(rider and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "270 kg",
+        "features": "Has Imani Tech (Jammer),Has liveries,Has no plate"
     },
     {
         "name": "Hermes",
         "model": "hermes",
         "dayImage": "Hermes_D.webp",
-        "nightImage": "Hermes_N.webp"
+        "nightImage": "Hermes_N.webp",
+        "type": "Car",
+        "class": "Muscle",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,300 kg",
+        "features": "Has Imani Tech (Jammer),Has liveries"
     },
     {
         "name": "Hot Rod Blazer",
         "model": "blazer3",
         "dayImage": "Hot_Rod_Blazer_D.webp",
-        "nightImage": "Hot_Rod_Blazer_N.webp"
+        "nightImage": "Hot_Rod_Blazer_N.webp",
+        "type": "Quadbike",
+        "class": "Off-Road",
+        "seats": "1(rider)",
+        "drivetrain": "All wheel drive(20F/80R)",
+        "mass": "600 kg",
+        "features": "Has no plate"
     },
     {
         "name": "Hotring Everon",
         "model": "everon3",
         "dayImage": "Hotring_Everon_D.webp",
-        "nightImage": "Hotring_Everon_N.webp"
+        "nightImage": "Hotring_Everon_N.webp",
+        "type": "Car",
+        "class": "SUVs",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "All wheel drive(25F/75R)",
+        "mass": "2,100 kg",
+        "features": "Has Imani Tech (Jammer),Has liveries"
     },
     {
         "name": "Hotring Hellfire",
         "model": "gauntlet6",
         "dayImage": "Hotring_Hellfire_D.webp",
-        "nightImage": "Hotring_Hellfire_N.webp"
+        "nightImage": "Hotring_Hellfire_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,940 kg",
+        "features": "Has liveries,Has no plate"
     },
     {
         "name": "Hotring Sabre",
         "model": "hotring",
         "dayImage": "Hotring_Sabre_D.webp",
-        "nightImage": "Hotring_Sabre_N.webp"
+        "nightImage": "Hotring_Sabre_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,508 kg",
+        "features": "Has liveries,Has no plate"
     },
     {
         "name": "Ignus",
         "model": "ignus",
         "dayImage": "Ignus_D.webp",
-        "nightImage": "Ignus_N.webp"
+        "nightImage": "Ignus_N.webp",
+        "type": "Car",
+        "class": "Supers",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "All wheel drive(48.5F/51.5R)",
+        "mass": "1,600 kg",
+        "features": "Has liveries,Has non-standard doors"
     },
     {
         "name": "Imorgon",
         "model": "imorgon",
         "dayImage": "Imorgon_D.webp",
-        "nightImage": "Imorgon_N.webp"
+        "nightImage": "Imorgon_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "All wheel drive(50F/50R)",
+        "mass": "1,600 kg",
+        "features": "Electric vehicle,Has Imani Tech (Jammer),Has liveries"
     },
     {
         "name": "Impaler LX Cruiser",
         "model": "impaler5",
         "dayImage": "Impaler_LX_Cruiser_D.webp",
-        "nightImage": "Impaler_LX_Cruiser_N.webp"
+        "nightImage": "Impaler_LX_Cruiser_N.webp",
+        "type": "Car",
+        "class": "Muscle",
+        "seats": "4(driver and three passengers)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,830 kg",
+        "features": "Has liveries"
     },
     {
         "name": "Impaler SZ Cruiser",
         "model": "impaler6",
         "dayImage": "Impaler_SZ_Cruiser_D.webp",
-        "nightImage": "Impaler_SZ_Cruiser_N.webp"
+        "nightImage": "Impaler_SZ_Cruiser_N.webp",
+        "type": "Car",
+        "class": "Muscle",
+        "seats": "4(driver and three passengers)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,630 kg",
+        "features": "Has Imani Tech (Jammer),Has liveries"
     },
     {
         "name": "Infernus",
         "model": "infernus",
         "dayImage": "Infernus_D.webp",
-        "nightImage": "Infernus_N.webp"
+        "nightImage": "Infernus_N.webp",
+        "type": "Car",
+        "class": "Supers",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "All wheel drive(20F/80R)",
+        "mass": "1,200 kg",
+        "features": "Has Imani Tech (Jammer),Has non-standard doors"
     },
     {
         "name": "Infernus Classic",
         "model": "infernus2",
         "dayImage": "Infernus_Classic_D.webp",
-        "nightImage": "Infernus_Classic_N.webp"
+        "nightImage": "Infernus_Classic_N.webp",
+        "type": "Car",
+        "class": "Sports Classics",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,400 kg",
+        "features": "Has hidden/pop-up headlights,Has non-standard doors"
     },
     {
         "name": "Issi Sport",
         "model": "issi7",
         "dayImage": "Issi_Sport_D.webp",
-        "nightImage": "Issi_Sport_N.webp"
+        "nightImage": "Issi_Sport_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "All wheel drive(65F/35R)",
+        "mass": "1,000 kg",
+        "features": "Has liveries,Immune to bushes"
     },
     {
         "name": "Itali GTB Custom",
         "model": "italigtb2",
         "dayImage": "Itali_GTB_Custom_D.webp",
-        "nightImage": "Itali_GTB_Custom_N.webp"
+        "nightImage": "Itali_GTB_Custom_N.webp",
+        "type": "Car",
+        "class": "Supers",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "All wheel drive(30F/70R)",
+        "mass": "1,600 kg",
+        "features": "Has liveries"
     },
     {
         "name": "Itali GTO",
         "model": "italigto",
         "dayImage": "Itali_GTO_D.webp",
-        "nightImage": "Itali_GTO_N.webp"
+        "nightImage": "Itali_GTO_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "All wheel drive(50F/50R)",
+        "mass": "1,520 kg",
+        "features": "Has liveries"
     },
     {
         "name": "Itali RSX",
         "model": "italirsx",
         "dayImage": "Itali_RSX_D.webp",
-        "nightImage": "Itali_RSX_N.webp"
+        "nightImage": "Itali_RSX_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "All wheel drive(50F/50R)",
+        "mass": "1,600 kg",
+        "features": "Has liveries"
     },
     {
         "name": "JB 700W",
         "model": "jb7002",
         "dayImage": "JB_700W_D.webp",
-        "nightImage": "JB_700W_N.webp"
+        "nightImage": "JB_700W_N.webp",
+        "type": "Car",
+        "class": "Sports Classics",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,600 kg",
+        "features": "Has Imani Tech (Jammer),Has proximity mines,Weaponized"
     },
     {
         "name": "Jester",
         "model": "jester",
         "dayImage": "Jester_D.webp",
-        "nightImage": "Jester_N.webp"
+        "nightImage": "Jester_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "All wheel drive(20F/80R)",
+        "mass": "1,300 kg"
     },
     {
         "name": "Jester Classic",
         "model": "jester3",
         "dayImage": "Jester_Classic_D.webp",
-        "nightImage": "Jester_Classic_N.webp"
+        "nightImage": "Jester_Classic_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,600 kg",
+        "features": "Has liveries"
     },
     {
         "name": "Jester RR",
         "model": "jester4",
         "dayImage": "Jester_RR_D.webp",
-        "nightImage": "Jester_RR_N.webp"
+        "nightImage": "Jester_RR_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,575 kg",
+        "features": "Has Imani Tech (Jammer),Has liveries,Lowered stance available"
     },
     {
         "name": "Journey II",
         "model": "journey2",
         "dayImage": "Journey_II_D.webp",
-        "nightImage": "Journey_II_N.webp"
+        "nightImage": "Journey_II_N.webp",
+        "type": "Car",
+        "class": "Vans",
+        "seats": "6(driver and five passengers)",
+        "drivetrain": "Front wheel drive",
+        "mass": "4,000 kg",
+        "features": "Has liveries"
     },
     {
         "name": "Jugular",
         "model": "jugular",
         "dayImage": "Jugular_D.webp",
-        "nightImage": "Jugular_N.webp"
+        "nightImage": "Jugular_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "4(driver and three passengers)",
+        "drivetrain": "All wheel drive(30F/70R)",
+        "mass": "1,745 kg",
+        "features": "Has Imani Tech (Jammer),Has liveries"
     },
     {
         "name": "Kalahari",
         "model": "kalahari",
         "dayImage": "Kalahari_D.webp",
-        "nightImage": "Kalahari_N.webp"
+        "nightImage": "Kalahari_N.webp",
+        "type": "Car",
+        "class": "Off-Road",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "All wheel drive(50F/50R)",
+        "mass": "800 kg"
     },
     {
         "name": "Kanjo SJ",
         "model": "kanjosj",
         "dayImage": "Kanjo_SJ_D.webp",
-        "nightImage": "Kanjo_SJ_N.webp"
+        "nightImage": "Kanjo_SJ_N.webp",
+        "type": "Car",
+        "class": "Coupes",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Front wheel drive",
+        "mass": "950 kg",
+        "features": "Has liveries,Lowered stance available"
     },
     {
         "name": "Khamelion",
         "model": "khamelion",
         "dayImage": "Khamelion_D.webp",
-        "nightImage": "Khamelion_N.webp"
+        "nightImage": "Khamelion_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,800 kg",
+        "features": "Electric vehicle"
     },
     {
         "name": "Komoda",
         "model": "komoda",
         "dayImage": "Komoda_D.webp",
-        "nightImage": "Komoda_N.webp"
+        "nightImage": "Komoda_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "4(driver and three passengers)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,575 kg",
+        "features": "Has liveries"
     },
     {
         "name": "Krieger",
         "model": "krieger",
         "dayImage": "Krieger_D.webp",
-        "nightImage": "Krieger_N.webp"
+        "nightImage": "Krieger_N.webp",
+        "type": "Car",
+        "class": "Supers",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "All wheel drive(20F/80R)",
+        "mass": "1,250 kg",
+        "features": "Has Imani Tech (Jammer),Has liveries,Has non-standard doors"
     },
     {
         "name": "Kuruma",
         "model": "kuruma",
         "dayImage": "Kuruma_D.webp",
-        "nightImage": "Kuruma_N.webp"
+        "nightImage": "Kuruma_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "4(driver and three passengers)",
+        "drivetrain": "All wheel drive(33F/67R)",
+        "mass": "1,500 kg",
+        "features": "Has Imani Tech (Jammer),Has liveries"
     },
     {
         "name": "LM87",
         "model": "lm87",
         "dayImage": "LM87_D.webp",
-        "nightImage": "LM87_N.webp"
+        "nightImage": "LM87_N.webp",
+        "type": "Car",
+        "class": "Supers",
+        "seats": "1(driver)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "900 kg",
+        "features": "Has liveries,Has non-standard doors"
     },
     {
         "name": "LSCM Cheetah Classic",
         "model": "cheetah2",
         "dayImage": "LSCM_Cheetah_Classic_D.webp",
-        "nightImage": "LSCM_Cheetah_Classic_N.webp"
+        "nightImage": "LSCM_Cheetah_Classic_N.webp",
+        "type": "Car",
+        "class": "Sports Classics",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,500 kg",
+        "features": "Has hidden/pop-up headlights"
     },
     {
         "name": "LSCM Jester RR",
         "model": "jester4",
         "dayImage": "LSCM_Jester_RR_D.webp",
-        "nightImage": "LSCM_Jester_RR_N.webp"
+        "nightImage": "LSCM_Jester_RR_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,575 kg",
+        "features": "Has Imani Tech (Jammer),Has liveries,Lowered stance available"
     },
     {
         "name": "La Coureuse",
-        "model": "lacoureuse",
+        "model": "coureur",
         "dayImage": "La_Coureuse_D.webp",
-        "nightImage": "La_Coureuse_N.webp"
+        "nightImage": "La_Coureuse_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,500 kg",
+        "features": "Electric vehicle,Has Imani Tech (Full),Has liveries,Immune to bushes"
     },
     {
         "name": "Locust",
         "model": "locust",
         "dayImage": "Locust_D.webp",
-        "nightImage": "Locust_N.webp"
+        "nightImage": "Locust_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "920 kg",
+        "features": "Has Imani Tech (Jammer),Has liveries"
     },
     {
         "name": "Lost Slamvan",
         "model": "slamvan2",
         "dayImage": "Lost_Slamvan_D.webp",
-        "nightImage": "Lost_Slamvan_N.webp"
+        "nightImage": "Lost_Slamvan_N.webp",
+        "type": "Car",
+        "class": "Muscle",
+        "seats": "4(driver and three passengers)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,300 kg"
     },
     {
         "name": "Luiva",
         "model": "luiva",
         "dayImage": "Luiva_D.webp",
-        "nightImage": "Luiva_N.webp"
+        "nightImage": "Luiva_N.webp",
+        "type": "Car",
+        "class": "Supers",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,270 kg",
+        "features": "Has liveries"
     },
     {
         "name": "Lynx",
         "model": "lynx",
         "dayImage": "Lynx_D.webp",
-        "nightImage": "Lynx_N.webp"
+        "nightImage": "Lynx_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,725 kg",
+        "features": "Has liveries"
     },
     {
         "name": "Mamba",
         "model": "mamba",
         "dayImage": "Mamba_D.webp",
-        "nightImage": "Mamba_N.webp"
+        "nightImage": "Mamba_N.webp",
+        "type": "Car",
+        "class": "Sports Classics",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,160 kg",
+        "features": "Has liveries"
     },
     {
         "name": "Manana",
         "model": "manana",
         "dayImage": "Manana_D.webp",
-        "nightImage": "Manana_N.webp"
+        "nightImage": "Manana_N.webp",
+        "type": "Car",
+        "class": "Sports Classics",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "2,100 kg"
     },
     {
         "name": "Manchez Scout C",
         "model": "manchez3",
         "dayImage": "Manchez_Scout_C_D.webp",
-        "nightImage": "Manchez_Scout_C_N.webp"
+        "nightImage": "Manchez_Scout_C_N.webp",
+        "type": "Bike",
+        "class": "Motorcycles",
+        "seats": "1(rider)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "175 kg",
+        "features": "Has liveries,Has no plate"
     },
     {
         "name": "Massacro",
         "model": "massacro",
         "dayImage": "Massacro_D.webp",
-        "nightImage": "Massacro_N.webp"
+        "nightImage": "Massacro_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,700 kg"
     },
     {
         "name": "Michelli GT",
         "model": "michelli",
         "dayImage": "Michelli_GT_D.webp",
-        "nightImage": "Michelli_GT_N.webp"
+        "nightImage": "Michelli_GT_N.webp",
+        "type": "Car",
+        "class": "Sports Classics",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "840 kg",
+        "features": "Has liveries"
     },
     {
         "name": "Monroe",
         "model": "monroe",
         "dayImage": "Monroe_D.webp",
-        "nightImage": "Monroe_N.webp"
+        "nightImage": "Monroe_N.webp",
+        "type": "Car",
+        "class": "Sports Classics",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,200 kg"
     },
     {
         "name": "MonstroCiti",
         "model": "monstrociti",
         "dayImage": "MonstroCiti_D.webp",
-        "nightImage": "MonstroCiti_N.webp"
+        "nightImage": "MonstroCiti_N.webp",
+        "type": "Car",
+        "class": "Off-Road",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "All wheel drive(50F/50R)",
+        "mass": "1,990 kg",
+        "features": "Has Imani Tech (Full),Has liveries,Immune to bushes"
     },
     {
         "name": "Nebula Turbo",
         "model": "nebula",
         "dayImage": "Nebula_Turbo_D.webp",
-        "nightImage": "Nebula_Turbo_N.webp"
+        "nightImage": "Nebula_Turbo_N.webp",
+        "type": "Car",
+        "class": "Sports Classics",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,320 kg",
+        "features": "Has liveries"
     },
     {
         "name": "Neo",
         "model": "neo",
         "dayImage": "Neo_D.webp",
-        "nightImage": "Neo_N.webp"
+        "nightImage": "Neo_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "All wheel drive(50F/50R)",
+        "mass": "1,390 kg",
+        "features": "Has Imani Tech (Jammer),Has liveries,Has non-standard doors"
     },
     {
         "name": "Neon",
         "model": "neon",
         "dayImage": "Neon_D.webp",
-        "nightImage": "Neon_N.webp"
+        "nightImage": "Neon_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "4(driver and three passengers)",
+        "drivetrain": "All wheel drive(50F/50R)",
+        "mass": "2,000 kg",
+        "features": "Electric vehicle"
     },
     {
         "name": "Nero Custom",
         "model": "nero2",
         "dayImage": "Nero_Custom_D.webp",
-        "nightImage": "Nero_Custom_N.webp"
+        "nightImage": "Nero_Custom_N.webp",
+        "type": "Car",
+        "class": "Supers",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "All wheel drive(20F/80R)",
+        "mass": "1,800 kg",
+        "features": "Has liveries"
     },
     {
         "name": "Nightshark",
         "model": "nightshark",
         "dayImage": "Nightshark_D.webp",
-        "nightImage": "Nightshark_N.webp"
+        "nightImage": "Nightshark_N.webp",
+        "type": "Car",
+        "class": "Off-Road",
+        "seats": "4(driver and three passengers)",
+        "drivetrain": "All wheel drive(40F/60R)",
+        "mass": "4,400 kg",
+        "features": "Can pull trailers,Has liveries,Immune to bushes,Weaponized"
     },
     {
         "name": "Niobe",
         "model": "niobe",
         "dayImage": "Niobe_D.webp",
-        "nightImage": "Niobe_N.webp"
+        "nightImage": "Niobe_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "All wheel drive(20F/80R)",
+        "mass": "1,555 kg",
+        "features": "Has liveries,Has non-standard doors"
     },
     {
         "name": "Omnis",
         "model": "omnis",
         "dayImage": "Omnis_D.webp",
-        "nightImage": "Omnis_N.webp"
+        "nightImage": "Omnis_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "All wheel drive(50F/50R)",
+        "mass": "1,090 kg",
+        "features": "Has liveries,Immune to bushes"
     },
     {
         "name": "Omnis e-GT",
-        "model": "omnis2",
+        "model": "omnisegt",
         "dayImage": "Omnis_e-GT_D.webp",
-        "nightImage": "Omnis_e-GT_N.webp"
+        "nightImage": "Omnis_e-GT_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "4(driver and three passengers)",
+        "drivetrain": "All wheel drive(40F/60R)",
+        "mass": "2,350 kg",
+        "features": "Electric vehicle,Has Imani Tech (Full),Has liveries,Has proximity mines"
     },
     {
         "name": "Oppressor Mk II",
         "model": "oppressor2",
         "dayImage": "Oppressor_Mk_II_D.webp",
-        "nightImage": "Oppressor_Mk_II_N.webp"
+        "nightImage": "Oppressor_Mk_II_N.webp",
+        "type": "Bike",
+        "class": "Motorcycles",
+        "seats": "1(rider)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "220 kg",
+        "features": "Flying car/bike,Has countermeasures,Has liveries,Weaponized"
     },
     {
         "name": "Osiris",
         "model": "osiris",
         "dayImage": "Osiris_D.webp",
-        "nightImage": "Osiris_N.webp"
+        "nightImage": "Osiris_N.webp",
+        "type": "Car",
+        "class": "Supers",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "All wheel drive(30F/70R)",
+        "mass": "1,350 kg",
+        "features": "Has non-standard doors"
     },
     {
         "name": "Outreach Faction",
-        "model": "faction4",
+        "model": "polfaction2",
         "dayImage": "Outreach_Faction_D.webp",
-        "nightImage": "Outreach_Faction_N.webp"
+        "nightImage": "Outreach_Faction_N.webp",
+        "type": "Car",
+        "class": "Emergency",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,280 kg",
+        "features": "Cop car,Has Imani Tech (Jammer),Has liveries,Has lowrider hydraulics,Has sirens/lights"
     },
     {
         "name": "Panthere",
         "model": "panthere",
         "dayImage": "Panthere_D.webp",
-        "nightImage": "Panthere_N.webp"
+        "nightImage": "Panthere_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,100 kg",
+        "features": "Has liveries"
     },
     {
         "name": "Paragon R",
         "model": "paragon",
         "dayImage": "Paragon_R_D.webp",
-        "nightImage": "Paragon_R_N.webp"
+        "nightImage": "Paragon_R_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "All wheel drive(50F/50R)",
+        "mass": "2,415 kg",
+        "features": "Has Imani Tech (Jammer),Has liveries"
     },
     {
         "name": "Paragon R Armored",
         "model": "paragon2",
         "dayImage": "Paragon_R_Armored_D.webp",
-        "nightImage": "Paragon_R_Armored_N.webp"
+        "nightImage": "Paragon_R_Armored_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "All wheel drive(50F/50R)",
+        "mass": "2,555 kg",
+        "features": "Has liveries,Weaponized"
     },
     {
         "name": "Paragon S",
         "model": "paragon3",
         "dayImage": "Paragon_S_D.webp",
-        "nightImage": "Paragon_S_N.webp"
+        "nightImage": "Paragon_S_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "All wheel drive(50F/50R)",
+        "mass": "2,315 kg",
+        "features": "Has Imani Tech (Full),Has liveries,Has proximity mines"
     },
     {
         "name": "Pariah",
         "model": "pariah",
         "dayImage": "Pariah_D.webp",
-        "nightImage": "Pariah_N.webp"
+        "nightImage": "Pariah_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,500 kg",
+        "features": "Has liveries"
     },
     {
         "name": "Patriot Mil-Spec",
         "model": "patriot2",
         "dayImage": "Patriot_Mil-Spec_D.webp",
-        "nightImage": "Patriot_Mil-Spec_N.webp"
+        "nightImage": "Patriot_Mil-Spec_N.webp",
+        "type": "Car",
+        "class": "SUVs",
+        "seats": "6(driver and five passengers)",
+        "drivetrain": "All wheel drive(50F/50R)",
+        "mass": "5,500 kg",
+        "features": "Has liveries"
     },
     {
         "name": "Penetrator",
         "model": "penetrator",
         "dayImage": "Penetrator_D.webp",
-        "nightImage": "Penetrator_N.webp"
+        "nightImage": "Penetrator_N.webp",
+        "type": "Car",
+        "class": "Supers",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "All wheel drive(30F/70R)",
+        "mass": "1,470 kg"
     },
     {
         "name": "Penumbra",
         "model": "penumbra",
         "dayImage": "Penumbra_D.webp",
-        "nightImage": "Penumbra_N.webp"
+        "nightImage": "Penumbra_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,400 kg",
+        "features": "Has liveries"
     },
     {
         "name": "Penumbra FF",
-        "model": "penumbraff",
+        "model": "penumbra2",
         "dayImage": "Penumbra_FF_D.webp",
-        "nightImage": "Penumbra_FF_N.webp"
+        "nightImage": "Penumbra_FF_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "All wheel drive(50F/50R)",
+        "mass": "1,300 kg",
+        "features": "Has liveries"
     },
     {
         "name": "Peyote",
         "model": "peyote",
         "dayImage": "Peyote_D.webp",
-        "nightImage": "Peyote_N.webp"
+        "nightImage": "Peyote_N.webp",
+        "type": "Car",
+        "class": "Sports Classics",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "2,100 kg"
     },
     {
         "name": "Peyote Custom",
         "model": "peyote2",
         "dayImage": "Peyote_Custom_D.webp",
-        "nightImage": "Peyote_Custom_N.webp"
+        "nightImage": "Peyote_Custom_N.webp",
+        "type": "Car",
+        "class": "Muscle",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "2,100 kg",
+        "features": "Has liveries"
     },
     {
         "name": "Phoenix",
         "model": "phoenix",
         "dayImage": "Phoenix_D.webp",
-        "nightImage": "Phoenix_N.webp"
+        "nightImage": "Phoenix_N.webp",
+        "type": "Car",
+        "class": "Muscle",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,700 kg"
     },
     {
         "name": "Picador",
         "model": "picador",
         "dayImage": "Picador_D.webp",
-        "nightImage": "Picador_N.webp"
+        "nightImage": "Picador_N.webp",
+        "type": "Car",
+        "class": "Muscle",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "All wheel drive(40F/60R)",
+        "mass": "1,600 kg",
+        "features": "Has liveries"
     },
     {
         "name": "Pigalle",
         "model": "pigalle",
         "dayImage": "Pigalle_D.webp",
-        "nightImage": "Pigalle_N.webp"
+        "nightImage": "Pigalle_N.webp",
+        "type": "Car",
+        "class": "Sports Classics",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Front wheel drive",
+        "mass": "1,500 kg"
     },
     {
         "name": "Pipistrello",
         "model": "pipistrello",
         "dayImage": "Pipistrello_D.webp",
-        "nightImage": "Pipistrello_N.webp"
+        "nightImage": "Pipistrello_N.webp",
+        "type": "Car",
+        "class": "Supers",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "All wheel drive(33F/67R)",
+        "mass": "1,600 kg",
+        "features": "Electric vehicle,Has Imani Tech (Jammer),Has liveries,Has non-standard doors"
     },
     {
         "name": "Police Bike",
         "model": "policeb",
         "dayImage": "Police_Bike_D.webp",
-        "nightImage": "Police_Bike_N.webp"
+        "nightImage": "Police_Bike_N.webp",
+        "type": "Bike",
+        "class": "Emergency",
+        "seats": "1(rider)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "250 kg",
+        "features": "Cop car,Has sirens/lights,Rewards upon entering"
     },
     {
         "name": "Pony",
         "model": "pony",
         "dayImage": "Pony_D.webp",
-        "nightImage": "Pony_N.webp"
+        "nightImage": "Pony_N.webp",
+        "type": "Car",
+        "class": "Vans",
+        "seats": "4(driver and three passengers)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "2,500 kg"
     },
     {
         "name": "RCV",
-        "model": "rcv",
+        "model": "riot2",
         "dayImage": "RCV_D.webp",
-        "nightImage": "RCV_N.webp"
+        "nightImage": "RCV_N.webp",
+        "type": "Car",
+        "class": "Emergency",
+        "seats": "6(driver, three cabin passengers and two passengers hanging on the sides)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "12,500 kg",
+        "features": "Has liveries,Has sirens/lights,Passengers can hang on side,Weaponized"
     },
     {
         "name": "RC Bandito",
         "model": "rcbandito",
         "dayImage": "RC_Bandito_D.webp",
-        "nightImage": "RC_Bandito_N.webp"
+        "nightImage": "RC_Bandito_N.webp",
+        "type": "Car",
+        "class": "Off-Road",
+        "seats": "1(driver)",
+        "drivetrain": "All wheel drive(50F/50R)",
+        "mass": "85 kg",
+        "features": "Can jump,Electric vehicle,Has liveries,Has proximity mines,Immune to bushes,Weaponized"
     },
     {
         "name": "RE-7B",
-        "model": "re7b",
+        "model": "le7b",
         "dayImage": "RE-7B_D.webp",
-        "nightImage": "RE-7B_N.webp"
+        "nightImage": "RE-7B_N.webp",
+        "type": "Car",
+        "class": "Supers",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "880 kg",
+        "features": "Has Imani Tech (Jammer),Has liveries,Has no plate,Has non-standard doors"
     },
     {
         "name": "RT3000",
         "model": "rt3000",
         "dayImage": "RT3000_D.webp",
-        "nightImage": "RT3000_N.webp"
+        "nightImage": "RT3000_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,275 kg",
+        "features": "Has convertible roof,Has liveries,Lowered stance available"
     },
     {
         "name": "Raiden",
         "model": "raiden",
         "dayImage": "Raiden_D.webp",
-        "nightImage": "Raiden_N.webp"
+        "nightImage": "Raiden_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "4(driver and three passengers)",
+        "drivetrain": "All wheel drive(35F/65R)",
+        "mass": "2,100 kg",
+        "features": "Electric vehicle,Has Imani Tech (Jammer)"
     },
     {
         "name": "Ramp Buggy",
-        "model": "rampbuggy",
+        "model": "dune4",
         "dayImage": "Ramp_Buggy_D.webp",
-        "nightImage": "Ramp_Buggy_N.webp"
+        "nightImage": "Ramp_Buggy_N.webp",
+        "type": "Car",
+        "class": "Off-Road",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,000 kg"
     },
     {
         "name": "Rapid GT",
         "model": "rapidgt",
         "dayImage": "Rapid_GT_D.webp",
-        "nightImage": "Rapid_GT_N.webp"
+        "nightImage": "Rapid_GT_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,600 kg"
     },
     {
         "name": "Rapid GT Classic",
         "model": "rapidgt2",
         "dayImage": "Rapid_GT_Classic_D.webp",
-        "nightImage": "Rapid_GT_Classic_N.webp"
+        "nightImage": "Rapid_GT_Classic_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,600 kg",
+        "features": "Has convertible roof"
     },
     {
         "name": "Rapid GT X",
         "model": "rapidgt3",
         "dayImage": "Rapid_GT_X_D.webp",
-        "nightImage": "Rapid_GT_X_N.webp"
+        "nightImage": "Rapid_GT_X_N.webp",
+        "type": "Car",
+        "class": "Sports Classics",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,570 kg",
+        "features": "Has liveries"
     },
     {
         "name": "Raptor",
         "model": "raptor",
         "dayImage": "Raptor_D.webp",
-        "nightImage": "Raptor_N.webp"
+        "nightImage": "Raptor_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "500 kg",
+        "features": "Three wheels vehicle"
     },
     {
         "name": "Rat-Loader",
         "model": "ratloader",
         "dayImage": "Rat-Loader_D.webp",
-        "nightImage": "Rat-Loader_N.webp"
+        "nightImage": "Rat-Loader_N.webp",
+        "type": "Car",
+        "class": "Muscle",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,200 kg"
     },
     {
         "name": "Rat Bike",
         "model": "ratbike",
         "dayImage": "Rat_Bike_D.webp",
-        "nightImage": "Rat_Bike_N.webp"
+        "nightImage": "Rat_Bike_N.webp",
+        "type": "Bike",
+        "class": "Motorcycles",
+        "seats": "2(rider and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "180 kg",
+        "features": "Has no plate"
     },
     {
         "name": "Reaper",
         "model": "reaper",
         "dayImage": "Reaper_D.webp",
-        "nightImage": "Reaper_N.webp"
+        "nightImage": "Reaper_N.webp",
+        "type": "Car",
+        "class": "Supers",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,300 kg"
     },
     {
         "name": "Remus",
         "model": "remus",
         "dayImage": "Remus_D.webp",
-        "nightImage": "Remus_N.webp"
+        "nightImage": "Remus_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,105 kg",
+        "features": "Has Imani Tech (Jammer),Has liveries,Lowered stance available"
     },
     {
         "name": "Retinue Mk II",
         "model": "retinue2",
         "dayImage": "Retinue_Mk_II_D.webp",
-        "nightImage": "Retinue_Mk_II_N.webp"
+        "nightImage": "Retinue_Mk_II_N.webp",
+        "type": "Car",
+        "class": "Sports Classics",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "950 kg",
+        "features": "Has liveries,Immune to bushes"
     },
     {
         "name": "Revolter",
         "model": "revolter",
         "dayImage": "Revolter_D.webp",
-        "nightImage": "Revolter_N.webp"
+        "nightImage": "Revolter_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "4(driver and three passengers)",
+        "drivetrain": "All wheel drive(50F/50R)",
+        "mass": "2,600 kg",
+        "features": "Has Imani Tech (Jammer),Has liveries,Immune to bushes,Weaponized"
     },
     {
         "name": "Rocket Voltic",
         "model": "voltic2",
         "dayImage": "Rocket_Voltic_D.webp",
-        "nightImage": "Rocket_Voltic_N.webp"
+        "nightImage": "Rocket_Voltic_N.webp",
+        "type": "Car",
+        "class": "Supers",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,200 kg",
+        "features": "Electric vehicle"
     },
     {
         "name": "Romero Hearse",
-        "model": "romero2",
+        "model": "romero",
         "dayImage": "Romero_Hearse_D.webp",
-        "nightImage": "Romero_Hearse_N.webp"
+        "nightImage": "Romero_Hearse_N.webp",
+        "type": "Car",
+        "class": "Sedans",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "2,000 kg"
     },
     {
         "name": "Roosevelt Valor",
-        "model": "roosevelt2",
+        "model": "btype3",
         "dayImage": "Roosevelt_Valor_D.webp",
-        "nightImage": "Roosevelt_Valor_N.webp"
+        "nightImage": "Roosevelt_Valor_N.webp",
+        "type": "Car",
+        "class": "Sports Classics",
+        "seats": "6(driver, three cabin passengers and two hanging on the sides)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "2,420 kg",
+        "features": "Has unique horn,Passengers can hang on side"
     },
     {
         "name": "Ruiner 2000",
         "model": "ruiner2",
         "dayImage": "Ruiner_2000_D.webp",
-        "nightImage": "Ruiner_2000_N.webp"
+        "nightImage": "Ruiner_2000_N.webp",
+        "type": "Car",
+        "class": "Muscle",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,300 kg",
+        "features": "Can jump,Has hidden/pop-up headlights,Weaponized"
     },
     {
         "name": "Ruston",
         "model": "ruston",
         "dayImage": "Ruston_D.webp",
-        "nightImage": "Ruston_N.webp"
+        "nightImage": "Ruston_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "800 kg"
     },
     {
         "name": "S80RR",
-        "model": "s80rr",
+        "model": "s80",
         "dayImage": "S80RR_D.webp",
-        "nightImage": "S80RR_N.webp"
+        "nightImage": "S80RR_N.webp",
+        "type": "Car",
+        "class": "Supers",
+        "seats": "1(driver)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "900 kg",
+        "features": "Has Imani Tech (Jammer),Has liveries,Has no plate,Has non-standard doors"
     },
     {
         "name": "S95",
         "model": "s95",
         "dayImage": "S95_D.webp",
-        "nightImage": "S95_N.webp"
+        "nightImage": "S95_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,270 kg",
+        "features": "Has liveries"
     },
     {
         "name": "SC1",
         "model": "sc1",
         "dayImage": "SC1_D.webp",
-        "nightImage": "SC1_N.webp"
+        "nightImage": "SC1_N.webp",
+        "type": "Car",
+        "class": "Supers",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,400 kg",
+        "features": "Has Imani Tech (Jammer)"
     },
     {
         "name": "SM722",
         "model": "sm722",
         "dayImage": "SM722_D.webp",
-        "nightImage": "SM722_N.webp"
+        "nightImage": "SM722_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,551 kg",
+        "features": "Has liveries"
     },
     {
         "name": "Savestra",
         "model": "savestra",
         "dayImage": "Savestra_D.webp",
-        "nightImage": "Savestra_N.webp"
+        "nightImage": "Savestra_N.webp",
+        "type": "Car",
+        "class": "Sports Classics",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "880 kg",
+        "features": "Has Imani Tech (Jammer),Has liveries,Immune to bushes,Weaponized"
     },
     {
         "name": "Schafter V12",
         "model": "schafter4",
         "dayImage": "Schafter_V12_D.webp",
-        "nightImage": "Schafter_V12_N.webp"
+        "nightImage": "Schafter_V12_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "4(driver and three passengers)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,850 kg",
+        "features": "Has Imani Tech (Jammer)"
     },
     {
         "name": "Schlagen GT",
         "model": "schlagen",
         "dayImage": "Schlagen_GT_D.webp",
-        "nightImage": "Schlagen_GT_N.webp"
+        "nightImage": "Schlagen_GT_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,550 kg",
+        "features": "Has liveries"
     },
     {
         "name": "Schwartzer",
-        "model": "schwartzer",
+        "model": "schwarzer",
         "dayImage": "Schwartzer_D.webp",
-        "nightImage": "Schwartzer_N.webp"
+        "nightImage": "Schwartzer_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,400 kg",
+        "features": "Has liveries"
     },
     {
         "name": "Scramjet",
         "model": "scramjet",
         "dayImage": "Scramjet_D.webp",
-        "nightImage": "Scramjet_N.webp"
+        "nightImage": "Scramjet_N.webp",
+        "type": "Car",
+        "class": "Supers",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,600 kg",
+        "features": "Can jump,Has liveries,Weaponized"
     },
     {
         "name": "Sentinel Classic",
         "model": "sentinel3",
         "dayImage": "Sentinel_Classic_D.webp",
-        "nightImage": "Sentinel_Classic_N.webp"
+        "nightImage": "Sentinel_Classic_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,100 kg",
+        "features": "Has liveries,Immune to bushes"
     },
     {
         "name": "Sentinel Classic Widebody",
         "model": "sentinel4",
         "dayImage": "Sentinel_Classic_Widebody_D.webp",
-        "nightImage": "Sentinel_Classic_Widebody_N.webp"
+        "nightImage": "Sentinel_Classic_Widebody_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,040 kg",
+        "features": "Has liveries,Immune to bushes"
     },
     {
         "name": "Sentinel GTS",
         "model": "sentinel2",
         "dayImage": "Sentinel_GTS_D.webp",
-        "nightImage": "Sentinel_GTS_N.webp"
+        "nightImage": "Sentinel_GTS_N.webp",
+        "type": "Car",
+        "class": "Coupes",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,400 kg",
+        "features": "Has convertible roof"
     },
     {
         "name": "Sentinel XS",
         "model": "sentinel",
         "dayImage": "Sentinel_XS_D.webp",
-        "nightImage": "Sentinel_XS_N.webp"
+        "nightImage": "Sentinel_XS_N.webp",
+        "type": "Car",
+        "class": "Coupes",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,400 kg",
+        "features": "Has liveries"
     },
     {
         "name": "Sentinel XS4",
         "model": "sentinel5",
         "dayImage": "Sentinel_XS4_D.webp",
-        "nightImage": "Sentinel_XS4_N.webp"
+        "nightImage": "Sentinel_XS4_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "4(driver and three passengers)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,870 kg",
+        "features": "Has Imani Tech (Jammer),Has liveries"
     },
     {
         "name": "Seven-70",
         "model": "seven70",
         "dayImage": "Seven-70_D.webp",
-        "nightImage": "Seven-70_N.webp"
+        "nightImage": "Seven-70_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,650 kg"
     },
     {
         "name": "Shinobi",
         "model": "shinobi",
         "dayImage": "Shinobi_D.webp",
-        "nightImage": "Shinobi_N.webp"
+        "nightImage": "Shinobi_N.webp",
+        "type": "Bike",
+        "class": "Motorcycles",
+        "seats": "1(rider)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "165 kg",
+        "features": "Has Imani Tech (Jammer),Has liveries"
     },
     {
         "name": "Shotaro",
         "model": "shotaro",
         "dayImage": "Shotaro_D.webp",
-        "nightImage": "Shotaro_N.webp"
+        "nightImage": "Shotaro_N.webp",
+        "type": "Bike",
+        "class": "Motorcycles",
+        "seats": "1(rider)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "230 kg",
+        "features": "Has Imani Tech (Jammer),Has no plate"
     },
     {
         "name": "Slamtruck",
         "model": "slamtruck",
         "dayImage": "Slamtruck_D.webp",
-        "nightImage": "Slamtruck_N.webp"
+        "nightImage": "Slamtruck_N.webp",
+        "type": "Car",
+        "class": "Utility",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "6,000 kg",
+        "features": "Has liveries,Has lowrider hydraulics"
     },
     {
         "name": "Sovereign",
         "model": "sovereign",
         "dayImage": "Sovereign_D.webp",
-        "nightImage": "Sovereign_N.webp"
+        "nightImage": "Sovereign_N.webp",
+        "type": "Bike",
+        "class": "Motorcycles",
+        "seats": "1(rider)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "250 kg"
     },
     {
         "name": "Specter",
         "model": "specter",
         "dayImage": "Specter_D.webp",
-        "nightImage": "Specter_N.webp"
+        "nightImage": "Specter_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,550 kg"
     },
     {
         "name": "Speedo Custom",
         "model": "speedo2",
         "dayImage": "Speedo_Custom_D.webp",
-        "nightImage": "Speedo_Custom_N.webp"
+        "nightImage": "Speedo_Custom_N.webp",
+        "type": "Car",
+        "class": "Vans",
+        "seats": "4(driver and three passengers)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "2,500 kg",
+        "features": "Has unique horn"
     },
     {
         "name": "Speedo Custom 2",
         "model": "speedo4",
         "dayImage": "Speedo_Custom_2_D.webp",
-        "nightImage": "Speedo_Custom_2_N.webp"
+        "nightImage": "Speedo_Custom_2_N.webp",
+        "type": "Car",
+        "class": "Vans",
+        "seats": "4(driver and three passengers)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "2,500 kg",
+        "features": "Has liveries,Has proximity mines,Weaponized"
     },
     {
         "name": "Stafford",
         "model": "stafford",
         "dayImage": "Stafford_D.webp",
-        "nightImage": "Stafford_N.webp"
+        "nightImage": "Stafford_N.webp",
+        "type": "Car",
+        "class": "Sedans",
+        "seats": "4(driver and three passengers)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "2,110 kg",
+        "features": "Has liveries"
     },
     {
         "name": "Stinger",
         "model": "stinger",
         "dayImage": "Stinger_D.webp",
-        "nightImage": "Stinger_N.webp"
+        "nightImage": "Stinger_N.webp",
+        "type": "Car",
+        "class": "Sports Classics",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,100 kg"
     },
     {
         "name": "Stinger GT",
         "model": "stingergt",
         "dayImage": "Stinger_GT_D.webp",
-        "nightImage": "Stinger_GT_N.webp"
+        "nightImage": "Stinger_GT_N.webp",
+        "type": "Car",
+        "class": "Sports Classics",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,100 kg",
+        "features": "Has Imani Tech (Jammer)"
     },
     {
         "name": "Stinger TT",
         "model": "stingertt",
         "dayImage": "Stinger_TT_D.webp",
-        "nightImage": "Stinger_TT_N.webp"
+        "nightImage": "Stinger_TT_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,570 kg",
+        "features": "Has Imani Tech (Full),Has liveries,Has proximity mines"
     },
     {
         "name": "Stirling GT",
-        "model": "stirling",
+        "model": "feltzer3",
         "dayImage": "Stirling_GT_D.webp",
-        "nightImage": "Stirling_GT_N.webp"
+        "nightImage": "Stirling_GT_N.webp",
+        "type": "Car",
+        "class": "Sports Classics",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,330 kg",
+        "features": "Has Imani Tech (Jammer),Has liveries,Has non-standard doors"
     },
     {
         "name": "Stratum",
         "model": "stratum",
         "dayImage": "Stratum_D.webp",
-        "nightImage": "Stratum_N.webp"
+        "nightImage": "Stratum_N.webp",
+        "type": "Car",
+        "class": "Sedans",
+        "seats": "4(driver and three passengers)",
+        "drivetrain": "All wheel drive(40F/60R)",
+        "mass": "1,800 kg"
     },
     {
         "name": "Streiter",
         "model": "streiter",
         "dayImage": "Streiter_D.webp",
-        "nightImage": "Streiter_N.webp"
+        "nightImage": "Streiter_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "4(driver and three passengers)",
+        "drivetrain": "All wheel drive(50F/50R)",
+        "mass": "2,010 kg",
+        "features": "Immune to bushes"
     },
     {
         "name": "Stromberg",
         "model": "stromberg",
         "dayImage": "Stromberg_D.webp",
-        "nightImage": "Stromberg_N.webp"
+        "nightImage": "Stromberg_N.webp",
+        "type": "Submersible Car",
+        "class": "Sports Classics",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,300 kg",
+        "features": "Amphibious vehicle,Weaponized"
     },
     {
         "name": "Sugoi",
         "model": "sugoi",
         "dayImage": "Sugoi_D.webp",
-        "nightImage": "Sugoi_N.webp"
+        "nightImage": "Sugoi_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "4(driver and three passengers)",
+        "drivetrain": "Front wheel drive",
+        "mass": "1,380 kg",
+        "features": "Has liveries"
     },
     {
         "name": "Sultan RS",
         "model": "sultanrs",
         "dayImage": "Sultan_RS_D.webp",
-        "nightImage": "Sultan_RS_N.webp"
+        "nightImage": "Sultan_RS_N.webp",
+        "type": "Car",
+        "class": "Supers",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "All wheel drive(25F/75R)",
+        "mass": "1,250 kg",
+        "features": "Has liveries"
     },
     {
         "name": "Sultan RS Classic",
-        "model": "sultanrs2",
+        "model": "sultan3",
         "dayImage": "Sultan_RS_Classic_D.webp",
-        "nightImage": "Sultan_RS_Classic_N.webp"
+        "nightImage": "Sultan_RS_Classic_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "All wheel drive(40F/60R)",
+        "mass": "1,150 kg",
+        "features": "Has liveries,Lowered stance available"
     },
     {
         "name": "Surano",
         "model": "surano",
         "dayImage": "Surano_D.webp",
-        "nightImage": "Surano_N.webp"
+        "nightImage": "Surano_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,600 kg",
+        "features": "Has convertible roof"
     },
     {
         "name": "Suzume",
         "model": "suzume",
         "dayImage": "Suzume_D.webp",
-        "nightImage": "Suzume_N.webp"
+        "nightImage": "Suzume_N.webp",
+        "type": "Car",
+        "class": "Supers",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "All wheel drive(25F/75R)",
+        "mass": "1,900 kg",
+        "features": "Electric vehicle,Has Imani Tech (Jammer),Has liveries,Has non-standard doors"
     },
     {
         "name": "T20",
         "model": "t20",
         "dayImage": "T20_D.webp",
-        "nightImage": "T20_N.webp"
+        "nightImage": "T20_N.webp",
+        "type": "Car",
+        "class": "Supers",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "All wheel drive(30F/70R)",
+        "mass": "1,395 kg",
+        "features": "Has non-standard doors"
     },
     {
         "name": "Taipan",
         "model": "taipan",
         "dayImage": "Taipan_D.webp",
-        "nightImage": "Taipan_N.webp"
+        "nightImage": "Taipan_N.webp",
+        "type": "Car",
+        "class": "Supers",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,400 kg"
     },
     {
         "name": "Technical Aqua",
         "model": "technical2",
         "dayImage": "Technical_Aqua_D.webp",
-        "nightImage": "Technical_Aqua_N.webp"
+        "nightImage": "Technical_Aqua_N.webp",
+        "type": "Amphibious Automobile",
+        "class": "Off-Road",
+        "seats": "3(driver, passenger and gunner)",
+        "drivetrain": "All wheel drive(30F/70R)",
+        "mass": "3,200 kg",
+        "features": "Amphibious vehicle,Weaponized"
     },
     {
         "name": "Tempesta",
         "model": "tempesta",
         "dayImage": "Tempesta_D.webp",
-        "nightImage": "Tempesta_N.webp"
+        "nightImage": "Tempesta_N.webp",
+        "type": "Car",
+        "class": "Supers",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "All wheel drive(30F/70R)",
+        "mass": "1,422 kg"
     },
     {
         "name": "Terminus Patrol",
         "model": "terminus",
         "dayImage": "Terminus_Patrol_D.webp",
-        "nightImage": "Terminus_Patrol_N.webp"
+        "nightImage": "Terminus_Patrol_N.webp",
+        "type": "Car",
+        "class": "Off-Road",
+        "seats": "4(driver and three passengers)",
+        "drivetrain": "All wheel drive(50F/50R)",
+        "mass": "2,000 kg",
+        "features": "Has Imani Tech (Full),Has liveries,Has proximity mines,Immune to bushes"
     },
     {
         "name": "Tezeract",
         "model": "tezeract",
         "dayImage": "Tezeract_D.webp",
-        "nightImage": "Tezeract_N.webp"
+        "nightImage": "Tezeract_N.webp",
+        "type": "Car",
+        "class": "Supers",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "All wheel drive(30F/70R)",
+        "mass": "1,800 kg",
+        "features": "Electric vehicle,Has liveries,Has non-standard doors"
     },
     {
         "name": "Thrax",
         "model": "thrax",
         "dayImage": "Thrax_D.webp",
-        "nightImage": "Thrax_N.webp"
+        "nightImage": "Thrax_N.webp",
+        "type": "Car",
+        "class": "Supers",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "All wheel drive(45F/55R)",
+        "mass": "1,960 kg",
+        "features": "Has liveries"
     },
     {
         "name": "Tigon",
         "model": "tigon",
         "dayImage": "Tigon_D.webp",
-        "nightImage": "Tigon_N.webp"
+        "nightImage": "Tigon_N.webp",
+        "type": "Car",
+        "class": "Supers",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,250 kg",
+        "features": "Has Imani Tech (Jammer),Has liveries,Has non-standard doors"
     },
     {
         "name": "Toreador",
         "model": "toreador",
         "dayImage": "Toreador_D.webp",
-        "nightImage": "Toreador_N.webp"
+        "nightImage": "Toreador_N.webp",
+        "type": "Submersible Car",
+        "class": "Sports Classics",
+        "seats": "4(driver and three passengers)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,600 kg",
+        "features": "Amphibious vehicle,Has liveries,Has non-standard doors,Has sonar,Weaponized"
     },
     {
         "name": "Torero",
         "model": "torero",
         "dayImage": "Torero_D.webp",
-        "nightImage": "Torero_N.webp"
+        "nightImage": "Torero_N.webp",
+        "type": "Car",
+        "class": "Sports Classics",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,470 kg",
+        "features": "Has hidden/pop-up headlights,Has Imani Tech (Jammer),Has non-standard doors"
     },
     {
         "name": "Torero XO",
-        "model": "toreroxo",
+        "model": "torero2",
         "dayImage": "Torero_XO_D.webp",
-        "nightImage": "Torero_XO_N.webp"
+        "nightImage": "Torero_XO_N.webp",
+        "type": "Car",
+        "class": "Supers",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "All wheel drive(48.5F/51.5R)",
+        "mass": "1,595 kg",
+        "features": "Has hidden/pop-up headlights,Has Imani Tech (Jammer),Has liveries,Has non-standard doors"
     },
     {
         "name": "Tornado",
         "model": "tornado2",
         "dayImage": "Tornado_D.webp",
-        "nightImage": "Tornado_N.webp"
+        "nightImage": "Tornado_N.webp",
+        "type": "Car",
+        "class": "Sports Classics",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "2,100 kg",
+        "features": "Has convertible roof"
     },
     {
         "name": "Tornado Custom",
         "model": "tornado3",
         "dayImage": "Tornado_Custom_D.webp",
-        "nightImage": "Tornado_Custom_N.webp"
+        "nightImage": "Tornado_Custom_N.webp",
+        "type": "Car",
+        "class": "Sports Classics",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "2,100 kg"
     },
     {
         "name": "Tornado Custom 2",
         "model": "tornado4",
         "dayImage": "Tornado_Custom_2_D.webp",
-        "nightImage": "Tornado_Custom_2_N.webp"
+        "nightImage": "Tornado_Custom_2_N.webp",
+        "type": "Car",
+        "class": "Sports Classics",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "2,100 kg"
     },
     {
         "name": "Tornado Rat Rod",
-        "model": "tornadorod",
+        "model": "tornado6",
         "dayImage": "Tornado_Rat_Rod_D.webp",
-        "nightImage": "Tornado_Rat_Rod_N.webp"
+        "nightImage": "Tornado_Rat_Rod_N.webp",
+        "type": "Car",
+        "class": "Sports Classics",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "2,100 kg"
     },
     {
         "name": "Tropos Rallye",
         "model": "tropos",
         "dayImage": "Tropos_Rallye_D.webp",
-        "nightImage": "Tropos_Rallye_N.webp"
+        "nightImage": "Tropos_Rallye_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "800 kg",
+        "features": "Has hidden/pop-up headlights,Has liveries,Immune to bushes"
     },
     {
         "name": "Turismo Classic",
         "model": "turismo2",
         "dayImage": "Turismo_Classic_D.webp",
-        "nightImage": "Turismo_Classic_N.webp"
+        "nightImage": "Turismo_Classic_N.webp",
+        "type": "Car",
+        "class": "Sports Classics",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,100 kg",
+        "features": "Has hidden/pop-up headlights"
     },
     {
         "name": "Turismo Omaggio",
         "model": "turismo3",
         "dayImage": "Turismo_Omaggio_D.webp",
-        "nightImage": "Turismo_Omaggio_N.webp"
+        "nightImage": "Turismo_Omaggio_N.webp",
+        "type": "Car",
+        "class": "Supers",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,435 kg",
+        "features": "Has Imani Tech (Full),Has liveries"
     },
     {
         "name": "Turismo R",
         "model": "turismor",
         "dayImage": "Turismo_R_D.webp",
-        "nightImage": "Turismo_R_N.webp"
+        "nightImage": "Turismo_R_N.webp",
+        "type": "Car",
+        "class": "Supers",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,350 kg",
+        "features": "Has liveries"
     },
     {
         "name": "Tyrant",
         "model": "tyrant",
         "dayImage": "Tyrant_D.webp",
-        "nightImage": "Tyrant_N.webp"
+        "nightImage": "Tyrant_N.webp",
+        "type": "Car",
+        "class": "Supers",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,175 kg",
+        "features": "Has non-standard doors"
     },
     {
         "name": "Tyrus",
         "model": "tyrus",
         "dayImage": "Tyrus_D.webp",
-        "nightImage": "Tyrus_N.webp"
+        "nightImage": "Tyrus_N.webp",
+        "type": "Car",
+        "class": "Supers",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "915 kg",
+        "features": "Has Imani Tech (Jammer),Has liveries,Has non-standard doors"
     },
     {
         "name": "Uranus LozSpeed",
-        "model": "uranus2",
+        "model": "uranus",
         "dayImage": "Uranus_LozSpeed_D.webp",
-        "nightImage": "Uranus_LozSpeed_N.webp"
+        "nightImage": "Uranus_LozSpeed_N.webp",
+        "type": "Car",
+        "class": "Sports Classics",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,240 kg",
+        "features": "Has Imani Tech (Jammer),Has liveries"
     },
     {
         "name": "V-STR",
         "model": "vstr",
         "dayImage": "V-STR_D.webp",
-        "nightImage": "V-STR_N.webp"
+        "nightImage": "V-STR_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "4(driver and three passengers)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,878 kg",
+        "features": "Has Imani Tech (Jammer),Has liveries"
     },
     {
         "name": "Vacca",
         "model": "vacca",
         "dayImage": "Vacca_D.webp",
-        "nightImage": "Vacca_N.webp"
+        "nightImage": "Vacca_N.webp",
+        "type": "Car",
+        "class": "Supers",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,200 kg"
     },
     {
         "name": "Vagner",
         "model": "vagner",
         "dayImage": "Vagner_D.webp",
-        "nightImage": "Vagner_N.webp"
+        "nightImage": "Vagner_N.webp",
+        "type": "Car",
+        "class": "Supers",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,000 kg",
+        "features": "Has non-standard doors"
     },
     {
         "name": "Vagrant",
         "model": "vagrant",
         "dayImage": "Vagrant_D.webp",
-        "nightImage": "Vagrant_N.webp"
+        "nightImage": "Vagrant_N.webp",
+        "type": "Car",
+        "class": "Off-Road",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "670 kg",
+        "features": "Has liveries,Immune to bushes"
     },
     {
         "name": "Vectre",
         "model": "vectre",
         "dayImage": "Vectre_D.webp",
-        "nightImage": "Vectre_N.webp"
+        "nightImage": "Vectre_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "All wheel drive(30F/70R)",
+        "mass": "1,765 kg",
+        "features": "Has liveries,Lowered stance available"
     },
     {
         "name": "Verlierer",
-        "model": "verlierer",
+        "model": "verlierer2",
         "dayImage": "Verlierer_D.webp",
-        "nightImage": "Verlierer_N.webp"
+        "nightImage": "Verlierer_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,100 kg"
     },
     {
         "name": "Veto Classic",
         "model": "veto",
         "dayImage": "Veto_Classic_D.webp",
-        "nightImage": "Veto_Classic_N.webp"
+        "nightImage": "Veto_Classic_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "1(driver)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "450 kg",
+        "features": "Has liveries"
     },
     {
         "name": "Veto Modern",
         "model": "veto2",
         "dayImage": "Veto_Modern_D.webp",
-        "nightImage": "Veto_Modern_N.webp"
+        "nightImage": "Veto_Modern_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "1(driver)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "600 kg",
+        "features": "Has liveries"
     },
     {
         "name": "Vigero ZX Convertible",
         "model": "vigero2",
         "dayImage": "Vigero_ZX_Convertible_D.webp",
-        "nightImage": "Vigero_ZX_Convertible_N.webp"
+        "nightImage": "Vigero_ZX_Convertible_N.webp",
+        "type": "Car",
+        "class": "Muscle",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,760 kg",
+        "features": "Has Imani Tech (Jammer),Has liveries"
     },
     {
         "name": "Vigilante",
         "model": "vigilante",
         "dayImage": "Vigilante_D.webp",
-        "nightImage": "Vigilante_N.webp"
+        "nightImage": "Vigilante_N.webp",
+        "type": "Car",
+        "class": "Supers",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "7,500 kg",
+        "features": "Has hidden/pop-up headlights,Has non-standard doors,Weaponized"
     },
     {
         "name": "Virtue",
         "model": "virtue",
         "dayImage": "Virtue_D.webp",
-        "nightImage": "Virtue_N.webp"
+        "nightImage": "Virtue_N.webp",
+        "type": "Car",
+        "class": "Supers",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "All wheel drive(25F/75R)",
+        "mass": "1,680 kg",
+        "features": "Electric vehicle,Has Imani Tech (Full),Has liveries,Has non-standard doors,Has proximity mines"
     },
     {
         "name": "Viseris",
         "model": "viseris",
         "dayImage": "Viseris_D.webp",
-        "nightImage": "Viseris_N.webp"
+        "nightImage": "Viseris_N.webp",
+        "type": "Car",
+        "class": "Sports Classics",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,400 kg",
+        "features": "Has hidden/pop-up headlights,Has Imani Tech (Jammer),Weaponized"
     },
     {
         "name": "Visione",
         "model": "visione",
         "dayImage": "Visione_D.webp",
-        "nightImage": "Visione_N.webp"
+        "nightImage": "Visione_N.webp",
+        "type": "Car",
+        "class": "Supers",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,400 kg",
+        "features": "Has liveries,Has non-standard doors"
     },
     {
         "name": "Vivanite",
         "model": "vivanite",
         "dayImage": "Vivanite_D.webp",
-        "nightImage": "Vivanite_N.webp"
+        "nightImage": "Vivanite_N.webp",
+        "type": "Car",
+        "class": "SUVs",
+        "seats": "4(driver and three passengers)",
+        "drivetrain": "All wheel drive(70F/30R)",
+        "mass": "2,180 kg",
+        "features": "Electric vehicle,Has sliding doors"
     },
     {
         "name": "Voltic",
         "model": "voltic",
         "dayImage": "Voltic_D.webp",
-        "nightImage": "Voltic_N.webp"
+        "nightImage": "Voltic_N.webp",
+        "type": "Car",
+        "class": "Supers",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,030 kg",
+        "features": "Electric vehicle"
     },
     {
         "name": "Warrener",
         "model": "warrener",
         "dayImage": "Warrener_D.webp",
-        "nightImage": "Warrener_N.webp"
+        "nightImage": "Warrener_N.webp",
+        "type": "Car",
+        "class": "Sedans",
+        "seats": "4(driver and three passengers)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,300 kg"
     },
     {
         "name": "Wastelander",
         "model": "wastelander",
         "dayImage": "Wastelander_D.webp",
-        "nightImage": "Wastelander_N.webp"
+        "nightImage": "Wastelander_N.webp",
+        "type": "Car",
+        "class": "Service",
+        "seats": "6(driver, cab passenger and four passengers standing on the railings)",
+        "drivetrain": "All wheel drive(35F/65R)",
+        "mass": "7,000 kg",
+        "features": "Immune to bushes"
     },
     {
         "name": "Weaponized Ignus",
-        "model": "weaponizedignus",
+        "model": "ignus2",
         "dayImage": "Weaponized_Ignus_D.webp",
-        "nightImage": "Weaponized_Ignus_N.webp"
+        "nightImage": "Weaponized_Ignus_N.webp",
+        "type": "Car",
+        "class": "Supers",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "All wheel drive(48.5F/51.5R)",
+        "mass": "1,650 kg",
+        "features": "Has Imani Tech (Full),Has liveries,Has non-standard doors,Weaponized"
     },
     {
         "name": "Weaponized Tampa",
-        "model": "weaponizedtampa",
+        "model": "tampa3",
         "dayImage": "Weaponized_Tampa_D.webp",
-        "nightImage": "Weaponized_Tampa_N.webp"
+        "nightImage": "Weaponized_Tampa_N.webp",
+        "type": "Car",
+        "class": "Muscle",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "All wheel drive(25F/75R)",
+        "mass": "1,400 kg",
+        "features": "Has liveries,Has proximity mines,Weaponized"
     },
     {
         "name": "Weevil",
         "model": "weevil",
         "dayImage": "Weevil_D.webp",
-        "nightImage": "Weevil_N.webp"
+        "nightImage": "Weevil_N.webp",
+        "type": "Car",
+        "class": "Compacts",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "820 kg",
+        "features": "Has liveries"
     },
     {
         "name": "Windsor Drop",
         "model": "windsor2",
         "dayImage": "Windsor_Drop_D.webp",
-        "nightImage": "Windsor_Drop_N.webp"
+        "nightImage": "Windsor_Drop_N.webp",
+        "type": "Car",
+        "class": "Coupes",
+        "seats": "4(driver and three passengers)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "3,000 kg",
+        "features": "Has convertible roof"
     },
     {
         "name": "Winky",
         "model": "winky",
         "dayImage": "Winky_D.webp",
-        "nightImage": "Winky_N.webp"
+        "nightImage": "Winky_N.webp",
+        "type": "Car",
+        "class": "Off-Road",
+        "seats": "3(driver and two passengers)",
+        "drivetrain": "All wheel drive(48F/52R)",
+        "mass": "1,113 kg",
+        "features": "Has liveries"
     },
     {
         "name": "X-treme",
         "model": "xtreme",
         "dayImage": "X-treme_D.webp",
-        "nightImage": "X-treme_N.webp"
+        "nightImage": "X-treme_N.webp",
+        "type": "Car",
+        "class": "Supers",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "All wheel drive(19F/81R)",
+        "mass": "1,500 kg",
+        "features": "Electric vehicle,Has liveries"
     },
     {
         "name": "X80 Proto",
-        "model": "x80proto",
+        "model": "prototipo",
         "dayImage": "X80_Proto_D.webp",
-        "nightImage": "X80_Proto_N.webp"
+        "nightImage": "X80_Proto_N.webp",
+        "type": "Car",
+        "class": "Supers",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "All wheel drive(30F/70R)",
+        "mass": "900 kg",
+        "features": "Has non-standard doors"
     },
     {
         "name": "XA-21",
         "model": "xa21",
         "dayImage": "XA-21_D.webp",
-        "nightImage": "XA-21_N.webp"
+        "nightImage": "XA-21_N.webp",
+        "type": "Car",
+        "class": "Supers",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "All wheel drive(50F/50R)",
+        "mass": "1,450 kg",
+        "features": "Has Imani Tech (Jammer),Has non-standard doors"
     },
     {
         "name": "Youga Custom",
         "model": "youga2",
         "dayImage": "Youga_Custom_D.webp",
-        "nightImage": "Youga_Custom_N.webp"
+        "nightImage": "Youga_Custom_N.webp",
+        "type": "Car",
+        "class": "Vans",
+        "seats": "4(driver and three passengers)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "2,500 kg",
+        "features": "Has liveries,Has sliding doors"
     },
     {
         "name": "Z-Type",
         "model": "ztype",
         "dayImage": "Z-Type_D.webp",
-        "nightImage": "Z-Type_N.webp"
+        "nightImage": "Z-Type_N.webp",
+        "type": "Car",
+        "class": "Sports Classics",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,000 kg",
+        "features": "Has Imani Tech (Jammer)"
     },
     {
         "name": "ZR350",
         "model": "zr350",
         "dayImage": "ZR350_D.webp",
-        "nightImage": "ZR350_N.webp"
+        "nightImage": "ZR350_N.webp",
+        "type": "Car",
+        "class": "Sports",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,300 kg",
+        "features": "Has hidden/pop-up headlights,Has liveries,Lowered stance available"
     },
     {
         "name": "Zeno",
         "model": "zeno",
         "dayImage": "Zeno_D.webp",
-        "nightImage": "Zeno_N.webp"
+        "nightImage": "Zeno_N.webp",
+        "type": "Car",
+        "class": "Supers",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,250 kg",
+        "features": "Has liveries,Has non-standard doors"
     },
     {
         "name": "Zentorno",
         "model": "zentorno",
         "dayImage": "Zentorno_D.webp",
-        "nightImage": "Zentorno_N.webp"
+        "nightImage": "Zentorno_N.webp",
+        "type": "Car",
+        "class": "Supers",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "All wheel drive(30F/70R)",
+        "mass": "1,500 kg",
+        "features": "Has Imani Tech (Jammer),Has liveries,Has non-standard doors"
     },
     {
         "name": "Zhaba",
         "model": "zhaba",
         "dayImage": "Zhaba_D.webp",
-        "nightImage": "Zhaba_N.webp"
+        "nightImage": "Zhaba_N.webp",
+        "type": "Amphibious Automobile",
+        "class": "Off-Road",
+        "seats": "4(driver, front passenger, 2 rear passengers)",
+        "drivetrain": "All wheel drive(40F/60R)",
+        "mass": "1,600 kg",
+        "features": "Amphibious vehicle,Has liveries"
     },
     {
         "name": "Zion Classic",
         "model": "zion2",
         "dayImage": "Zion_Classic_D.webp",
-        "nightImage": "Zion_Classic_N.webp"
+        "nightImage": "Zion_Classic_N.webp",
+        "type": "Car",
+        "class": "Coupes",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,400 kg",
+        "features": "Has convertible roof"
     },
     {
         "name": "Zorrusso",
         "model": "zorrusso",
         "dayImage": "Zorrusso_D.webp",
-        "nightImage": "Zorrusso_N.webp"
+        "nightImage": "Zorrusso_N.webp",
+        "type": "Car",
+        "class": "Supers",
+        "seats": "2(driver and passenger)",
+        "drivetrain": "Rear wheel drive",
+        "mass": "1,300 kg",
+        "features": "Has Imani Tech (Jammer),Has liveries"
     }
 ]
